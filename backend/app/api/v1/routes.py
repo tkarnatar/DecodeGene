@@ -61,9 +61,9 @@ def _render_association(assoc: GeneDiseaseAssociation, view: str = "simple") -> 
             "metaphor_title": assoc.gene.metaphor_title,
             "metaphor_story": assoc.gene.metaphor_story,
             "plain_summary": assoc.gene.plain_summary,
-            "metaphor_title_en": assoc.gene.metaphor_title_en,
-            "metaphor_story_en": assoc.gene.metaphor_story_en,
-            "plain_summary_en": assoc.gene.plain_summary_en,
+            "metaphor_title_en": getattr(assoc.gene, "metaphor_title_en", ""),
+            "metaphor_story_en": getattr(assoc.gene, "metaphor_story_en", ""),
+            "plain_summary_en": getattr(assoc.gene, "plain_summary_en", ""),
         },
         "disease": {
             "id": assoc.disease.id,
@@ -82,8 +82,8 @@ def _render_association(assoc: GeneDiseaseAssociation, view: str = "simple") -> 
         "lifestyle_prevention": {
             "screening_advice": assoc.lifestyle_prevention.screening_advice,
             "lifestyle_tips": assoc.lifestyle_prevention.lifestyle_tips,
-            "screening_advice_en": assoc.lifestyle_prevention.screening_advice_en,
-            "lifestyle_tips_en": assoc.lifestyle_prevention.lifestyle_tips_en,
+            "screening_advice_en": getattr(assoc.lifestyle_prevention, "screening_advice_en", []),
+            "lifestyle_tips_en": getattr(assoc.lifestyle_prevention, "lifestyle_tips_en", []),
         },
         "doctor_checklist": {
             "gene_symbol": assoc.doctor_checklist.gene_symbol,
@@ -91,7 +91,7 @@ def _render_association(assoc: GeneDiseaseAssociation, view: str = "simple") -> 
             "recommended_specialty": assoc.doctor_checklist.recommended_specialty,
             "key_questions": assoc.doctor_checklist.key_questions,
             "screening_tests": assoc.doctor_checklist.screening_tests,
-            "key_questions_en": assoc.doctor_checklist.key_questions_en,
+            "key_questions_en": getattr(assoc.doctor_checklist, "key_questions_en", []),
         },
         "myth_buster": assoc.myth_buster.model_dump() if assoc.myth_buster else None,
     }
