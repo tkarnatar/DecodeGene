@@ -48,7 +48,64 @@ produce one JSON object with these fields (all in English):
 
 ---
 
+## 品質升級 Pass（高星基因逐條打磨）
+
+英文敘事全量完成後，中低星基因用「類別模板」即可，但**高證據基因（star ≥ 4）值得逐條打磨成專屬比喻**，與中文版品質看齊。貼下面這段給 Flash：
+
+### 複製區（品質升級用）
+```
+You are a senior clinical genetic counselor and top genetics science writer.
+Upgrade the English narratives for HIGH-EVIDENCE genes in DecodeGene.
+
+## Setup (read first)
+1. data/processed/bulk_associations.json — array of ~8710 genes; each has
+   gene.symbol, disease.name, evidence.star_rating, evidence.clinvar_pathogenic_count.
+2. data/processed/bulk_narratives_en.json — keyed by gene symbol (existing English narratives).
+
+## Task
+For every gene with evidence.star_rating >= 4 (about 3070 genes), REWRITE the narrative so it is
+UNIQUE and SPECIFIC to that gene's disease — no generic template wording.
+
+How to tell template vs specific:
+- TEMPLATE = the story does NOT name the actual disease (says "a condition" / "a disorder" generically, e.g. "linked to a condition whose effects vary from person to person"). REWRITE these.
+- SPECIFIC = the story already names the real disease (e.g. "Lynch syndrome", "cystic fibrosis"). SKIP these.
+
+For each gene to rewrite, produce a JSON object (all English):
+{
+  "metaphor_title": "A unique vivid metaphor tied to THIS gene's function/disease, with one emoji",
+  "metaphor_story": "3-5 sentences explaining THIS gene's function and the specific consequence of its mutation, naming the disease and using a concrete everyday analogy",
+  "plain_summary": "2-3 sentences on the real-world meaning of carrying THIS mutation",
+  "screening_advice": "Safe screening wording tied to THIS condition (no fabricated ages/tests)",
+  "lifestyle_tips": ["3 tips relevant to THIS condition"],
+  "key_questions": ["3 questions specific to THIS condition"],
+  "myth": "A common misconception about THIS specific condition",
+  "truth": "The truth, starting with 'No,' or 'Not true,'"
+}
+
+## How to be specific (examples)
+- "Lynch syndrome" → DNA proofreading / regular colonoscopy, NOT "a condition".
+- "cystic fibrosis" → thick mucus blocking airways.
+- "hypertrophic cardiomyopathy" → thickened heart muscle.
+Ground the metaphor in the ACTUAL disease.name.
+
+## Rules (unchanged)
+- No fabricated drug names, ages, percentages, or dosages.
+- Never turn "increased risk" into "will definitely get sick"; keep the tone warm.
+- Do not generate academic summaries or evidence scores.
+
+## Writing
+- Merge results into data/processed/bulk_narratives_en.json (key = gene symbol),
+  saving every ~100 genes, resumable (skip genes already upgraded).
+- Only touch star_rating >= 4 genes; leave all others unchanged.
+
+## Report
+- How many upgraded, how many skipped (already specific), plus 3 samples.
+```
+
+---
+
 ## 備註
 - 英文敘事與中文敘事分開存放（`bulk_narratives_en.json`），互不影響。
 - 前端切到 English 時會優先顯示英文敘事，缺英文的基因回退到中文/英文疾病名。
 - 產出後可請助手檢查品質（編造、焦慮措辭、一致性）。
+
