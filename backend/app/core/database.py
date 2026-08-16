@@ -34,6 +34,7 @@ class KnowledgeBase:
         self._token_index: Dict[str, List[GeneDiseaseAssociation]] = {}
         self._load(data_paths)
         self._load_narratives()
+        self._load_narratives_en()
         self._build_index()
         self._conn = None  # backing store is created lazily on first query_db
 
@@ -93,6 +94,37 @@ class KnowledgeBase:
                 assoc.doctor_checklist.key_questions = n["key_questions"]
             if n.get("myth") and n.get("truth"):
                 assoc.myth_buster = MythBuster(myth=n["myth"], truth=n["truth"])
+
+    def _load_narratives_en(self) -> None:
+        """Merge AI-generated English narratives into bulk associations."""
+        path = settings.BULK_NARRATIVES_EN_PATH
+        if not path or not path.exists():
+            return
+        try:
+            narratives = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            return
+        if not isinstance(narratives, dict):
+            return
+        for assoc in self.associations:
+            n = narratives.get(assoc.gene.symbol)
+            if not n:
+                continue
+            if n.get("metaphor_title"):
+                assoc.gene.metaphor_title_en = n["metaphor_title"]
+                assoc.gene.metaphor_story_en = n.get("metaphor_story", "")
+            if n.get("plain_summary"):
+                assoc.gene.plain_summary_en = n["plain_summary"]
+            if n.get("screening_advice"):
+                assoc.lifestyle_prevention.screening_advice_en = n["screening_advice"]
+            if n.get("lifestyle_tips"):
+                assoc.lifestyle_prevention.lifestyle_tips_en = n["lifestyle_tips"]
+            if n.get("key_questions"):
+                assoc.doctor_checklist.key_questions_en = n["key_questions"]
+            if n.get("myth") and n.get("truth"):
+                assoc.myth_buster = assoc.myth_buster or MythBuster()
+                assoc.myth_buster.myth_en = n["myth"]
+                assoc.myth_buster.truth_en = n["truth"]
 
     # ----------------------------------------------------------------- index
     def _add_token(self, token: str, assoc: GeneDiseaseAssociation) -> None:

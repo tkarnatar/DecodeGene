@@ -76,6 +76,13 @@ python run_dev.py --backend-only
 python run_dev.py --frontend-only
 ```
 
+### Docker / deploy
+
+```bash
+docker compose up -d --build   # single container: nginx + backend
+```
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for Docker and one-click Render deployment.
+
 ### Optional: enable the DeepSeek AI
 
 ```bash

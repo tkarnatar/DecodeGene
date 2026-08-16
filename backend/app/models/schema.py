@@ -15,6 +15,9 @@ class GeneEntity(BaseModel):
     metaphor_story: str = ""
     plain_summary: str = ""
     academic_summary: str = ""
+    metaphor_title_en: str = ""
+    metaphor_story_en: str = ""
+    plain_summary_en: str = ""
 
 
 class DiseaseEntity(BaseModel):
@@ -41,6 +44,8 @@ class Evidence(BaseModel):
 class LifestylePrevention(BaseModel):
     screening_advice: str = ""
     lifestyle_tips: List[str] = Field(default_factory=list)
+    screening_advice_en: str = ""
+    lifestyle_tips_en: List[str] = Field(default_factory=list)
 
 
 class DoctorChecklist(BaseModel):
@@ -49,11 +54,14 @@ class DoctorChecklist(BaseModel):
     recommended_specialty: str = ""
     key_questions: List[str] = Field(default_factory=list)
     screening_tests: List[str] = Field(default_factory=list)
+    key_questions_en: List[str] = Field(default_factory=list)
 
 
 class MythBuster(BaseModel):
     myth: str = ""
     truth: str = ""
+    myth_en: str = ""
+    truth_en: str = ""
 
 
 class GeneDiseaseAssociation(BaseModel):

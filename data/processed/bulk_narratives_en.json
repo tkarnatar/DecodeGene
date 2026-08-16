@@ -1,0 +1,52 @@
+{
+  "TTN": {
+    "metaphor_title": "🧵 The elastic band inside your heart muscle",
+    "metaphor_story": "Titin works like the strong elastic band inside heart and skeletal muscle, letting muscles stretch and snap back with every beat. If the band is faulty, the heart's muscle can become too thick or too weak, which may lead to cardiomyopathy. Many carriers never develop symptoms.",
+    "plain_summary": "TTN is a key structural gene for heart and skeletal muscle. Certain variants raise the risk of cardiomyopathy, but most carriers remain symptom-free for life.",
+    "screening_advice": "If a TTN variant is found, consult a cardiologist to decide whether heart monitoring is appropriate for you.",
+    "lifestyle_tips": ["Follow up with a cardiologist as recommended", "Stay active but avoid extreme endurance overload unless cleared by a doctor", "Watch for shortness of breath or palpitations and report them"],
+    "key_questions": ["Should I have regular heart imaging?", "Which symptoms should I watch out for?", "Should my family members be tested?"],
+    "myth": "A TTN variant means I will definitely get heart disease?",
+    "truth": "No. Many people with a TTN variant never develop any heart problem; it only raises risk, so monitoring is what matters."
+  },
+  "NF1": {
+    "metaphor_title": "🎗️ The cell-growth brake pedal",
+    "metaphor_story": "NF1 works like a brake pedal that keeps cell growth under control. When the brake is faulty, cells can form benign lumps along nerves (neurofibromas) and cause café-au-lait skin spots. Most growths stay benign, but regular follow-up helps catch problems early.",
+    "plain_summary": "NF1 causes neurofibromatosis type 1, which can lead to skin spots and benign nerve tumors. Most people live full lives with regular monitoring.",
+    "screening_advice": "If NF1 is suspected or diagnosed, see a specialist experienced in neurofibromatosis to plan individualized follow-up.",
+    "lifestyle_tips": ["Keep regular specialist appointments", "Report new or fast-growing lumps promptly", "Watch for any vision or blood-pressure changes"],
+    "key_questions": ["How often should I have check-ups?", "Which symptoms need urgent attention?", "Is there a chance my children could inherit this?"],
+    "myth": "Neurofibromas always turn into cancer?",
+    "truth": "No. The vast majority stay benign; only a small minority become malignant, and regular follow-up catches problems early."
+  },
+  "ATM": {
+    "metaphor_title": "🔧 The cell's senior DNA repair technician",
+    "metaphor_story": "ATM is a senior technician that detects DNA damage and signals the cell to repair it or stop growing. With a faulty ATM, damaged DNA is fixed less reliably, which raises the risk of breast and other cancers, and can cause the rare condition ataxia-telangiectasia.",
+    "plain_summary": "ATM helps repair DNA damage. Certain variants raise the risk of breast and other cancers, but this is a susceptibility, not a certainty.",
+    "screening_advice": "Carriers should discuss personalized cancer screening and radiation considerations with a genetic counselor or specialist.",
+    "lifestyle_tips": ["Discuss a personalized screening plan with your doctor", "Minimize unnecessary radiation exposure", "Maintain a healthy weight and avoid tobacco"],
+    "key_questions": ["What screening schedule is right for me?", "Should I avoid certain imaging that uses radiation?", "Should my relatives consider testing?"],
+    "myth": "A damaged ATM gene means cancer is unavoidable?",
+    "truth": "No. It only raises the risk, and tailored screening plus a healthy lifestyle meaningfully reduce that risk."
+  },
+  "FBN1": {
+    "metaphor_title": "🏗️ The body's steel rebar",
+    "metaphor_story": "FBN1 makes fibrillin, which works like steel rebar that gives connective tissue its strength and stretch. A faulty FBN1 weakens this scaffolding, which can cause Marfan syndrome: tall stature, flexible joints, and importantly, a risk to the aorta and eyes.",
+    "plain_summary": "FBN1 variants cause Marfan syndrome, affecting the heart, blood vessels, eyes and skeleton. Early diagnosis and monitoring protect the aorta.",
+    "screening_advice": "If Marfan syndrome is suspected, see a cardiologist and other specialists to monitor the aorta and eyes.",
+    "lifestyle_tips": ["Keep regular heart and eye check-ups", "Avoid heavy weight-lifting and contact sports unless cleared by a doctor", "Control blood pressure"],
+    "key_questions": ["How often should my aorta be imaged?", "Which physical activities are safe for me?", "Do my family members need evaluation?"],
+    "myth": "Marfan syndrome only affects how tall you are?",
+    "truth": "No. The most important concern is the aorta and eyes, which is why regular monitoring is essential."
+  },
+  "MSH2": {
+    "metaphor_title": "🧩 The DNA proofreader",
+    "metaphor_story": "Every time cells copy DNA, tiny mistakes can slip in. MSH2 is part of the proofreading team that catches and fixes these errors. When the proofreader fails, errors build up over time, raising the risk of colorectal and other cancers known as Lynch syndrome.",
+    "plain_summary": "MSH2 is a DNA mismatch-repair gene. Variants cause Lynch syndrome, which raises the risk of colorectal and other cancers, but regular colonoscopy greatly reduces that risk.",
+    "screening_advice": "People with Lynch syndrome should follow a specialist-recommended screening schedule, typically including regular colonoscopy.",
+    "lifestyle_tips": ["Keep regular colonoscopies as advised", "Eat more fiber and limit processed meat", "Report blood in stool or changes in bowel habits promptly"],
+    "key_questions": ["How often do I need a colonoscopy?", "Which other organs need screening?", "Should my children be tested?"],
+    "myth": "Lynch syndrome means I will definitely get colon cancer?",
+    "truth": "No. Regular colonoscopy can remove polyps before they become cancer, dramatically lowering the risk."
+  }
+}

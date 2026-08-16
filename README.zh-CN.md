@@ -76,6 +76,13 @@ python run_dev.py --backend-only
 python run_dev.py --frontend-only
 ```
 
+### Docker / 部署
+
+```bash
+docker compose up -d --build   # 单一容器：nginx + 后端
+```
+详见 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)（Docker 与 Render 一键部署）。
+
 ### 可选：启用 DeepSeek AI
 
 ```bash
