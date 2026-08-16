@@ -1,0 +1,1 @@
+"""DecodeGene data ingestion pipeline."""

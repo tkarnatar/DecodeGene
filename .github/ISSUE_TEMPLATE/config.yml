@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Discussions / 讨论区
+    url: https://github.com/tkarnatar/DecodeGene/discussions
+    about: 请先在此讨论想法或提问 / Please ask questions and discuss ideas here
+  - name: 📖 Documentation / 文档
+    url: https://github.com/tkarnatar/DecodeGene#readme
+    about: 查看 README 与文档 / Check the README and docs
