@@ -83,6 +83,8 @@ class KnowledgeBase:
                 assoc.gene.metaphor_story = n.get("metaphor_story", "")
             if not assoc.gene.plain_summary and n.get("plain_summary"):
                 assoc.gene.plain_summary = n["plain_summary"]
+            if not assoc.disease.chinese_name and n.get("disease_chinese_name"):
+                assoc.disease.chinese_name = n["disease_chinese_name"]
             if n.get("screening_advice"):
                 assoc.lifestyle_prevention.screening_advice = n["screening_advice"]
             if n.get("lifestyle_tips"):

@@ -50,6 +50,33 @@
 
 ---
 
+## 補疾病中文名（後續批次）
+
+敘事已生成後，批量基因的「疾病名」仍是英文（ClinVar 只有英文）。若要讓中文疾病名也能搜尋到，
+再跑一次補齊（或用 `python -m pipeline.generate_narratives --disease-names-only`）：
+
+### 複製區（補疾病中文名用）
+```
+你是生物醫學翻譯專家。請把英文疾病名稱翻譯成簡體中文疾病名稱。
+
+任務：
+1. 讀取 data/processed/bulk_narratives.json（以基因符號為 key 的物件，約 3000 條）。
+2. 找出所有「缺少 disease_chinese_name 欄位」的條目。
+3. 對每一條，把它的英文疾病名（data/processed/bulk_associations.json 對應基因的 disease.name）翻譯成簡體中文。
+4. 把翻譯結果寫回該條目的 disease_chinese_name 欄位，分批存檔、斷點續跑。
+
+翻譯規則：
+- 專有名詞（人名、地名，如 Alport、Bethlem、Angelman）保留原樣或通行音譯。
+- 疾病類型詞：syndrome→综合征、deficiency→缺乏症、dystrophy→营养不良、cardiomyopathy→心肌病、
+  myopathy→肌病、anemia→贫血、ataxia→共济失调、epilepsy→癫痫、dysplasia→发育不良、
+  deafness→耳聋、immunodeficiency→免疫缺陷、susceptibility→易感性、disease→病、disorder→障碍。
+- 尾部「type N」翻成「N 型」。
+
+完成後回報補了多少個、剩多少個未補。
+```
+
+---
+
 ## 變更語言
 - 想改成**繁體中文**：把指令裡的「簡體中文」改成「繁體中文」。
   注意：目前專案既有的 20 個精選基因是簡體，改成繁體會造成不一致。

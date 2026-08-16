@@ -60,6 +60,7 @@ SYSTEM_PROMPT = (
 
 OUTPUT_SCHEMA = {
     "chinese_name": "基因中文名（若無法確認可留空字串）",
+    "disease_chinese_name": "疾病中文名（把英文疾病名翻譯成簡體中文，保留專有名詞音譯，type N 翻成「N 型」）",
     "metaphor_title": "生活比喻標題，含一個 emoji，例如「🧬 細胞裡的【DNA 維修工】」",
     "metaphor_story": "生活比喻故事，3-5 句，用日常事物解釋該基因的功能與突變後果",
     "plain_summary": "白話摘要，2-3 句，說明攜帶突變的實際意義，不製造焦慮",
@@ -79,6 +80,26 @@ def build_user_prompt(evidence: Dict[str, Any]) -> str:
         "【輸出格式】只輸出一個 JSON 物件，欄位如下（皆為簡體中文字串或字串陣列）：\n"
         f"{json.dumps(OUTPUT_SCHEMA, ensure_ascii=False, indent=2)}\n\n"
         "請嚴格只輸出 JSON，不要輸出任何多餘文字或 markdown 代碼框。"
+    )
+
+
+DISEASE_SYSTEM_PROMPT = (
+    "你是生物醫學翻譯專家。請把英文疾病名稱翻譯成簡體中文疾病名稱。\n"
+    "規則：\n"
+    "1. 專有名詞（人名、地名，如 Alport、Bethlem、Angelman）保留原樣或使用通行音譯。\n"
+    "2. 疾病類型詞翻譯成中文：syndrome→综合征、deficiency→缺乏症、dystrophy→营养不良、"
+    "cardiomyopathy→心肌病、myopathy→肌病、anemia→贫血、ataxia→共济失调、"
+    "epilepsy→癫痫、dysplasia→发育不良、deafness→耳聋、immunodeficiency→免疫缺陷、"
+    "susceptibility→易感性、disease→病、disorder→障碍。\n"
+    "3. 尾部的「type N」翻成「N 型」，「type N, ...」保留數字。\n"
+    "4. 只輸出一個 JSON 物件：{\"disease_chinese_name\": \"...\"}，不要輸出多餘文字。"
+)
+
+
+def build_disease_prompt(disease_name: str) -> str:
+    return (
+        f"請翻譯這個疾病名稱：{disease_name}\n"
+        "只輸出 JSON：{\"disease_chinese_name\": \"中文疾病名\"}"
     )
 
 
@@ -202,6 +223,73 @@ async def run(
     print(f"[bold green]完成，共 {len(existing)} 個基因已寫入: {OUT_PATH}[/bold green]")
 
 
+async def run_disease_names(limit: Optional[int], concurrency: int) -> None:
+    """只補「疾病中文名」欄位，不重新生成其他敘事（供批次補齊用）。"""
+    existing = load_existing()
+    if not existing:
+        print("[red]找不到既有 bulk_narratives.json，請先跑完整生成。[/red]")
+        return
+    if not API_KEY:
+        print("[red]未偵測到 DEEPSEEK_API_KEY。[/red]")
+        return
+
+    bulk_by_symbol = {a["gene"]["symbol"]: a for a in load_bulk()}
+    todo = [
+        (sym, n)
+        for sym, n in existing.items()
+        if not n.get("disease_chinese_name")
+    ]
+    if limit:
+        todo = todo[:limit]
+    print(f"待補疾病中文名 {len(todo)} / 總計 {len(existing)} 個基因")
+
+    sem = asyncio.Semaphore(concurrency)
+    done = 0
+
+    async def one(symbol: str, disease_name: str) -> Optional[str]:
+        payload = {
+            "model": MODEL,
+            "messages": [
+                {"role": "system", "content": DISEASE_SYSTEM_PROMPT},
+                {"role": "user", "content": build_disease_prompt(disease_name)},
+            ],
+            "temperature": 0.2,
+            "stream": False,
+            "response_format": {"type": "json_object"},
+        }
+        headers = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
+        async with sem:
+            for attempt in range(3):
+                try:
+                    async with httpx.AsyncClient(timeout=60.0) as client:
+                        resp = await client.post(
+                            f"{BASE_URL}/chat/completions", json=payload, headers=headers
+                        )
+                        resp.raise_for_status()
+                        content = resp.json()["choices"][0]["message"]["content"]
+                        return json.loads(content).get("disease_chinese_name", "")
+                except Exception:
+                    await asyncio.sleep(2 * (attempt + 1))
+        return None
+
+    for symbol, narrative in todo:
+        disease_name = bulk_by_symbol.get(symbol, {}).get("disease", {}).get("name", "")
+        if not disease_name:
+            continue
+        zh = await one(symbol, disease_name)
+        if zh:
+            narrative["disease_chinese_name"] = zh
+            done += 1
+            print(f"  [green]✔ {symbol}[/green] → {zh}  ({done}/{len(todo)})")
+            if done % 100 == 0:
+                OUT_PATH.write_text(
+                    json.dumps(existing, ensure_ascii=False, indent=1), encoding="utf-8"
+                )
+
+    OUT_PATH.write_text(json.dumps(existing, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"[bold green]完成，共補 {done} 個疾病中文名。[/bold green]")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="用 DeepSeek 生成批量基因白話敘事")
     parser.add_argument("--limit", type=int, default=None, help="只處理前 N 個基因（測試用）")
@@ -209,7 +297,16 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true", help="只預覽 prompt，不呼叫 API")
     parser.add_argument("--concurrency", type=int, default=3, help="並發請求數 (預設 3)")
     parser.add_argument("--force", action="store_true", help="重新生成已完成的基因")
+    parser.add_argument(
+        "--disease-names-only",
+        action="store_true",
+        help="只補齊「疾病中文名」欄位（需已有 bulk_narratives.json）",
+    )
     args = parser.parse_args()
+
+    if args.disease_names_only:
+        asyncio.run(run_disease_names(limit=args.limit, concurrency=args.concurrency))
+        return
 
     genes = [g.strip() for g in (args.genes or "").split(",") if g.strip()]
     asyncio.run(

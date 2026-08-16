@@ -54,6 +54,7 @@ dist-ssr/
 *.db
 *.log
 data/cache/
+data/processed/batches/
 
 # IDE & OS files
 .DS_Store
