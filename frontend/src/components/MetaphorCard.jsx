@@ -5,24 +5,42 @@ export default function MetaphorCard({ assoc, mode, onOpenChecklist }) {
   const { gene, disease, evidence, lifestyle_prevention } = assoc
 
   const isPro = mode === 'pro'
-  const geneName = lang === 'zh' ? gene.chinese_name : gene.name || ''
-  const diseaseName = lang === 'zh' ? disease.chinese_name : disease.name || disease.chinese_name
+  const geneName = lang === 'zh'
+    ? gene.chinese_name || gene.name || ''
+    : gene.name || gene.chinese_name || ''
+  const diseaseName = lang === 'zh'
+    ? disease.chinese_name || disease.name
+    : disease.name || disease.chinese_name
 
-  const body = isPro ? (
-    <p className="card-body">{gene.academic_summary || t('no_pro_summary')}</p>
-  ) : (
-    <>
-      <h4 className="metaphor-title">{gene.metaphor_title || t('no_metaphor')}</h4>
-      <p className="card-body">{gene.metaphor_story || gene.plain_summary}</p>
-    </>
-  )
+  const hasPlainContent = gene.metaphor_title || gene.metaphor_story || gene.plain_summary
+  const hasChecklist = lifestyle_prevention?.screening_advice
+
+  let body
+  if (isPro) {
+    body = (
+      <p className="card-body">
+        {gene.academic_summary || `${gene.symbol}: ${evidence?.professional_rating || t('no_pro_summary')}`}
+      </p>
+    )
+  } else if (hasPlainContent) {
+    body = (
+      <>
+        <h4 className="metaphor-title">{gene.metaphor_title || t('no_metaphor')}</h4>
+        <p className="card-body">{gene.metaphor_story || gene.plain_summary}</p>
+      </>
+    )
+  } else {
+    body = (
+      <p className="card-body">{gene.plain_summary || t('bulk_no_metaphor')}</p>
+    )
+  }
 
   return (
     <article className="card">
       <div className="card-head">
         <div>
           <h3>
-            {gene.symbol} {geneName && <span className="gene-cn">{geneName}</span>}
+            {gene.symbol} {geneName && geneName !== gene.symbol && <span className="gene-cn">{geneName}</span>}
           </h3>
           <div className="disease">{diseaseName}</div>
         </div>
@@ -34,19 +52,19 @@ export default function MetaphorCard({ assoc, mode, onOpenChecklist }) {
       <div className="rating">
         {isPro ? (
           <span>
-            {t('overall_score')} {evidence?.overall_score?.toFixed?.(2) ?? '—'} · OpenTargets{' '}
-            {evidence?.opentargets_score?.toFixed?.(2) ?? '—'}
+            {t('overall_score')} {evidence?.overall_score?.toFixed?.(2) ?? '—'} · ClinVar{' '}
+            {evidence?.clinvar_pathogenic_count ?? '—'}
           </span>
         ) : (
           <span>{evidence?.plain_rating || t('no_rating')}</span>
         )}
       </div>
 
-      {!isPro && (
+      {!isPro && hasChecklist && (
         <>
           <div className="prevention">
             <strong>{t('screening_advice')}</strong>
-            {lifestyle_prevention?.screening_advice || '—'}
+            {lifestyle_prevention?.screening_advice}
           </div>
           <button className="btn-outline" onClick={onOpenChecklist}>
             {t('open_checklist')}

@@ -121,9 +121,12 @@ DecodeGene/
 
 ## 📊 Data & How to Expand
 
-DecodeGene ships with a **curated sample knowledge base** — currently **20 genes**, each with a metaphor, evidence, screening advice, a doctor checklist and a myth-buster card. This is a curated sample, not an exhaustive database.
+DecodeGene ships with two layers of data:
 
-### Currently included genes
+- **20 curated genes** — each with a plain-language metaphor, evidence, screening advice, a doctor checklist and a myth-buster card.
+- **3,000+ bulk genes** — auto-imported from the ClinVar full dump, with gene symbol, disease name and pathogenicity evidence (for Expert Mode).
+
+### Curated genes (with metaphors)
 
 **Hereditary cancer syndromes**: `BRCA1` `BRCA2` `TP53` `PALB2` `MLH1` `APC` `RET` `EGFR`
 
@@ -134,8 +137,9 @@ DecodeGene ships with a **curated sample knowledge base** — currently **20 gen
 ### How to expand
 
 1. **Curated (recommended, best plain-language quality):** add a new entry in `pipeline/parsers/metaphors.py` (`METAPHORS` + `EXTRA_ASSOCIATIONS`), then re-run the pipeline.
-2. **Bulk live enrichment:** `python -m pipeline.run_pipeline --live` fetches Open Targets scores + ClinVar pathogenicity for every included gene.
-3. **Large-scale automated ingestion:** see `docs/data_sources.md` — bulk-import ClinVar / GenCC / HPO dumps (auto-scored), then enrich metaphors manually or with AI.
+2. **Bulk import from ClinVar:** `python -m pipeline.run_pipeline --bulk` downloads the ClinVar `variant_summary.txt.gz` and generates thousands of gene-disease associations (with `--max-genes` to cap the count).
+3. **Bulk live enrichment:** `python -m pipeline.run_pipeline --live` fetches Open Targets scores + ClinVar pathogenicity for every curated gene.
+4. **Large-scale automated ingestion:** see `docs/data_sources.md` — bulk-import ClinVar / GenCC / HPO dumps (auto-scored), then enrich metaphors manually or with AI.
 
 ---
 

@@ -34,11 +34,15 @@ class KnowledgeBase:
         self._token_index: Dict[str, List[GeneDiseaseAssociation]] = {}
         self._load(data_paths)
         self._build_index()
-        self._conn = self._init_backing_store()
+        self._conn = None  # backing store is created lazily on first query_db
 
     # ------------------------------------------------------------------ load
     def _load(self, data_paths: Optional[List[Path]]) -> None:
-        paths = data_paths or [settings.SAMPLE_DATA_PATH, settings.PROCESSED_DATA_PATH]
+        paths = data_paths or [
+            settings.SAMPLE_DATA_PATH,
+            settings.PROCESSED_DATA_PATH,
+            settings.BULK_DATA_PATH,
+        ]
         seen = set()
         for path in paths:
             if not path or not Path(path).exists():
@@ -59,10 +63,10 @@ class KnowledgeBase:
     # ----------------------------------------------------------------- index
     def _add_token(self, token: str, assoc: GeneDiseaseAssociation) -> None:
         token = (token or "").strip().lower()
-        if not token:
+        if len(token) < 2:
             return
         self._token_index.setdefault(token, [])
-        if assoc not in self._token_index[token]:
+        if not any(a.association_id == assoc.association_id for a in self._token_index[token]):
             self._token_index[token].append(assoc)
 
     def _build_index(self) -> None:
@@ -116,6 +120,16 @@ class KnowledgeBase:
             score += 90
         elif disease_zh and q in disease_zh:
             score += 50
+        gene_en = assoc.gene.name.lower()
+        disease_en = assoc.disease.name.lower()
+        if gene_en and q == gene_en:
+            score += 80
+        elif gene_en and q in gene_en:
+            score += 45
+        if disease_en and q == disease_en:
+            score += 90
+        elif disease_en and q in disease_en:
+            score += 50
         if gene_ini and q == gene_ini:
             score += 70
         elif gene_ini and q in gene_ini:
@@ -140,7 +154,7 @@ class KnowledgeBase:
         if alias_target is not None:
             scored[alias_target.association_id] = 200.0
         for token, assocs in self._token_index.items():
-            if q == token or q in token or token in q:
+            if q == token or q in token or (len(token) >= 2 and token in q):
                 for assoc in assocs:
                     s = self._score(q, assoc) or 10.0
                     scored[assoc.association_id] = max(scored.get(assoc.association_id, 0.0), s)
@@ -158,55 +172,40 @@ class KnowledgeBase:
 
     # -------------------------------------------------------- backing store
     def _init_backing_store(self):
-        """Try DuckDB first, then fall back to the SQLite standard library."""
-        try:
-            import duckdb  # type: ignore
+        """Create an in-memory SQLite store for direct SQL retrieval.
 
-            conn = duckdb.connect(":memory:")
-            conn.execute(
-                "CREATE TABLE associations ("
-                "association_id VARCHAR PRIMARY KEY, symbol VARCHAR, "
-                "chinese_name VARCHAR, disease VARCHAR, score DOUBLE)"
-            )
-            for assoc in self.associations:
-                conn.execute(
-                    "INSERT OR REPLACE INTO associations VALUES (?, ?, ?, ?, ?)",
-                    [
-                        assoc.association_id,
-                        assoc.gene.symbol,
-                        assoc.gene.chinese_name,
-                        assoc.disease.chinese_name,
-                        assoc.evidence.overall_score,
-                    ],
-                )
-            return conn
-        except Exception:
-            import sqlite3
+        SQLite (stdlib) is used because DuckDB's ``executemany`` is orders of
+        magnitude slower for bulk inserts; the store is created lazily so app
+        startup stays fast.
+        """
+        import sqlite3
 
-            conn = sqlite3.connect(":memory:")
-            conn.execute(
-                "CREATE TABLE associations ("
-                "association_id TEXT PRIMARY KEY, symbol TEXT, "
-                "chinese_name TEXT, disease TEXT, score REAL)"
+        rows = [
+            (
+                a.association_id,
+                a.gene.symbol,
+                a.gene.chinese_name,
+                a.disease.chinese_name,
+                a.evidence.overall_score,
             )
-            conn.executemany(
-                "INSERT OR REPLACE INTO associations VALUES (?, ?, ?, ?, ?)",
-                [
-                    (
-                        a.association_id,
-                        a.gene.symbol,
-                        a.gene.chinese_name,
-                        a.disease.chinese_name,
-                        a.evidence.overall_score,
-                    )
-                    for a in self.associations
-                ],
-            )
-            conn.commit()
-            return conn
+            for a in self.associations
+        ]
+        conn = sqlite3.connect(":memory:")
+        conn.execute(
+            "CREATE TABLE associations ("
+            "association_id TEXT PRIMARY KEY, symbol TEXT, "
+            "chinese_name TEXT, disease TEXT, score REAL)"
+        )
+        conn.executemany(
+            "INSERT OR REPLACE INTO associations VALUES (?, ?, ?, ?, ?)", rows
+        )
+        conn.commit()
+        return conn
 
     def query_db(self, sql: str, params: tuple = ()) -> List[tuple]:
-        """Run a raw SQL query against the backing store (DuckDB/SQLite)."""
+        """Run a raw SQL query against the backing store (SQLite)."""
+        if self._conn is None:
+            self._conn = self._init_backing_store()
         cur = self._conn.execute(sql, params)
         if cur.description is None:
             return []

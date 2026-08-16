@@ -59,6 +59,11 @@ class Settings:
                 "PROCESSED_DATA_PATH", "../data/processed/sample_associations.json"
             )
         )
+        self.BULK_DATA_PATH = _resolve_path(
+            os.getenv(
+                "BULK_DATA_PATH", "../data/processed/bulk_associations.json"
+            )
+        )
 
 
 @lru_cache

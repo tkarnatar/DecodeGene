@@ -53,6 +53,7 @@ dist-ssr/
 *.sqlite3
 *.db
 *.log
+data/cache/
 
 # IDE & OS files
 .DS_Store

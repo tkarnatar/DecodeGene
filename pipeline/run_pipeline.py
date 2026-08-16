@@ -1,9 +1,10 @@
 """一键数据摄取与通俗化标注管道.
 
-用法::
+    用法::
 
     python pipeline/run_pipeline.py            # 生成离线样本知识库
     python pipeline/run_pipeline.py --live     # 额外调用 Open Targets / ClinVar 实时 API
+    python pipeline/run_pipeline.py --bulk     # 从 ClinVar 全量 dump 批量导入 1000+ 基因
 """
 from __future__ import annotations
 
@@ -16,6 +17,7 @@ from pathlib import Path
 from rich.console import Console
 
 from .apis.clinvar import fetch_many_genes
+from .apis.clinvar_bulk import download_variant_summary, parse_variant_summary
 from .apis.opentargets import fetch_many_targets
 from .parsers.metaphors import EXTRA_ASSOCIATIONS
 
@@ -57,6 +59,18 @@ ROOT = Path(__file__).resolve().parents[1]
 SAMPLE_PATH = ROOT / "data" / "sample" / "demo_associations.json"
 PROCESSED_DIR = ROOT / "data" / "processed"
 OUTPUT_PATH = PROCESSED_DIR / "sample_associations.json"
+BULK_OUTPUT_PATH = PROCESSED_DIR / "bulk_associations.json"
+CLINVAR_CACHE = ROOT / "data" / "cache" / "variant_summary.txt.gz"
+
+
+def curated_symbols() -> set:
+    """Collect gene symbols that already have curated (metaphor) entries."""
+    symbols = set()
+    for item in load_sample() + EXTRA_ASSOCIATIONS:
+        sym = (item.get("gene") or {}).get("symbol")
+        if sym:
+            symbols.add(sym)
+    return symbols
 
 
 def load_sample() -> list:
@@ -126,6 +140,23 @@ def run(live: bool = False) -> None:
     console.print(f"[bold green]✔ 已生成: {OUTPUT_PATH}[/bold green]")
 
 
+def run_bulk(max_genes: int = 3000) -> None:
+    """从 ClinVar 全量 dump 批量导入基因-疾病关联（无通俗比喻，供专业模式）。"""
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    console.rule("[bold green]DecodeGene 批量导入 (ClinVar)[/bold green]")
+
+    exclude = curated_symbols()
+    console.print(f"✔ 已排除 {len(exclude)} 个已收录的精选基因")
+
+    cache = download_variant_summary(CLINVAR_CACHE)
+    associations = parse_variant_summary(cache, exclude_symbols=exclude, max_genes=max_genes)
+
+    BULK_OUTPUT_PATH.write_text(
+        json.dumps(associations, ensure_ascii=False, indent=1), encoding="utf-8"
+    )
+    console.print(f"[bold green]✔ 已生成 {len(associations)} 条批量关联: {BULK_OUTPUT_PATH}[/bold green]")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="DecodeGene 数据摄取管道")
     parser.add_argument(
@@ -133,8 +164,22 @@ def main() -> None:
         action="store_true",
         help="额外调用 Open Targets / ClinVar 实时 API 补充证据评分",
     )
+    parser.add_argument(
+        "--bulk",
+        action="store_true",
+        help="从 ClinVar 全量 dump 批量导入基因-疾病关联",
+    )
+    parser.add_argument(
+        "--max-genes",
+        type=int,
+        default=3000,
+        help="批量导入的基因数量上限 (默认 3000)",
+    )
     args = parser.parse_args()
-    run(live=args.live)
+    if args.bulk:
+        run_bulk(max_genes=args.max_genes)
+    else:
+        run(live=args.live)
 
 
 if __name__ == "__main__":

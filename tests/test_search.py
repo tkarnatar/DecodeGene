@@ -33,3 +33,18 @@ def test_search_lung_cancer():
 
 def test_search_empty_query():
     assert kb.search("") == []
+
+
+def test_bulk_data_loaded():
+    assert len(kb.associations) >= 1000
+
+
+def test_search_bulk_gene_by_symbol():
+    results = kb.search("NF1")
+    assert results[0].gene.symbol == "NF1"
+
+
+def test_search_lynch_no_false_positive():
+    symbols = [a.gene.symbol for a in kb.search("Lynch")]
+    assert "MLH1" in symbols
+    assert "MTHFR" not in symbols

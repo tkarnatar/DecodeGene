@@ -18,6 +18,7 @@ export const translations = {
 
     no_pro_summary: '（暂无专业摘要）',
     no_metaphor: '暂无比喻',
+    bulk_no_metaphor: '🔬 此条目来自 ClinVar 批量数据，暂无比喻与通俗解释，请切换到「专业科研模式」查看证据。',
     badge_pending: '待评估',
     overall_score: '综合关联分',
     no_rating: '暂无评级',
@@ -93,6 +94,7 @@ export const translations = {
 
     no_pro_summary: '(No expert summary yet)',
     no_metaphor: 'No metaphor yet',
+    bulk_no_metaphor: '🔬 This entry comes from bulk ClinVar data and has no metaphor yet. Switch to Expert Mode to see the evidence.',
     badge_pending: 'Pending',
     overall_score: 'Overall score',
     no_rating: 'No rating',

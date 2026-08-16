@@ -121,9 +121,12 @@ DecodeGene/
 
 ## 📊 数据与扩展
 
-DecodeGene 内置一个**精心筛选的示例知识库**——当前 **20 个基因**，每个含通俗比喻、科研证据、筛查建议、就医清单与辟谣卡。这是精选示例，并非全量数据库。
+DecodeGene 内置两层数据：
 
-### 目前收录的基因
+- **20 个精选基因** —— 每个含通俗比喻、科研证据、筛查建议、就医清单与辟谣卡。
+- **3000+ 个批量基因** —— 从 ClinVar 全量 dump 自动导入，含基因符号、疾病名与致病性证据（供专业模式使用）。
+
+### 精选基因（含比喻）
 
 **遗传性肿瘤综合征**：`BRCA1` `BRCA2` `TP53` `PALB2` `MLH1` `APC` `RET` `EGFR`
 
@@ -134,8 +137,9 @@ DecodeGene 内置一个**精心筛选的示例知识库**——当前 **20 个�
 ### 如何扩充
 
 1. **手工精选（推荐，保通俗质量）**：在 `pipeline/parsers/metaphors.py`（`METAPHORS` + `EXTRA_ASSOCIATIONS`）添加新条目，然后重新运行管道。
-2. **实时批量**：`python -m pipeline.run_pipeline --live` 为所有已收录基因拉取 Open Targets 关联分与 ClinVar 致病性数据。
-3. **大规模自动化**：参见 `docs/data_sources.md`，批量导入 ClinVar / GenCC / HPO 全量数据（自动打分），再由人工或 AI 补充通俗比喻。
+2. **批量导入 ClinVar**：`python -m pipeline.run_pipeline --bulk` 下载 ClinVar `variant_summary.txt.gz` 并生成数千条基因-疾病关联（可用 `--max-genes` 限制数量）。
+3. **实时批量**：`python -m pipeline.run_pipeline --live` 为所有精选基因拉取 Open Targets 关联分与 ClinVar 致病性数据。
+4. **大规模自动化**：参见 `docs/data_sources.md`，批量导入 ClinVar / GenCC / HPO 全量数据（自动打分），再由人工或 AI 补充通俗比喻。
 
 ---
 
