@@ -25,6 +25,14 @@
 
 ---
 
+## 📸 功能截圖
+
+| 首页 | 报告翻译机 | 家族遗传模拟器 |
+| :---: | :---: | :---: |
+| ![首页](assets/screenshots/home.png) | ![报告翻译机](assets/screenshots/report.png) | ![家族遗传模拟器](assets/screenshots/simulator.png) |
+
+---
+
 ## ✨ 核心功能
 
 | 功能 | 说明 |

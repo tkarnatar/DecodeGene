@@ -25,6 +25,14 @@ Traditional biomedical databases (ClinVar, OMIM, NCBI) are full of impenetrable 
 
 ---
 
+## 📸 Screenshots
+
+| Homepage | Report Translator | Inheritance Simulator |
+| :---: | :---: | :---: |
+| ![Homepage](assets/screenshots/home.png) | ![Report Translator](assets/screenshots/report.png) | ![Inheritance Simulator](assets/screenshots/simulator.png) |
+
+---
+
 ## ✨ Core Features
 
 | Feature | Description |
