@@ -64,6 +64,11 @@ class Settings:
                 "BULK_DATA_PATH", "../data/processed/bulk_associations.json"
             )
         )
+        self.BULK_NARRATIVES_PATH = _resolve_path(
+            os.getenv(
+                "BULK_NARRATIVES_PATH", "../data/processed/bulk_narratives.json"
+            )
+        )
 
 
 @lru_cache
