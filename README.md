@@ -124,7 +124,7 @@ DecodeGene/
 DecodeGene ships with two layers of data:
 
 - **20 curated genes** — each with a plain-language metaphor, evidence, screening advice, a doctor checklist and a myth-buster card.
-- **3,000+ bulk genes** — auto-imported from the ClinVar full dump, with gene symbol, disease name and pathogenicity evidence (for Expert Mode).
+- **5,000+ bulk genes** — auto-imported from the ClinVar full dump, with gene symbol, disease name and pathogenicity evidence (for Expert Mode).
 
 ### Curated genes (with metaphors)
 

@@ -56050,5 +56050,371 @@
   ],
   "myth": "“头围大是聪明的表现？”",
   "truth": "不是！头围异常增大需神经科评估，结合其他表现综合判断。"
+ },
+ "TTI1": {
+  "disease_chinese_name": "脑形态异常"
+ },
+ "MAB21L1": {
+  "disease_chinese_name": "自闭症"
+ },
+ "UNC13A": {
+  "disease_chinese_name": "自闭症"
+ },
+ "RECQL": {
+  "disease_chinese_name": "遗传性癌症易感综合征"
+ },
+ "USP45": {
+  "disease_chinese_name": "身材矮小"
+ },
+ "WNK3": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "BUB1": {
+  "disease_chinese_name": "结肠癌"
+ },
+ "MT-CO2": {
+  "disease_chinese_name": "线粒体复合物 IV 缺乏症 1 型"
+ },
+ "FBXO28": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "PPIL1": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "CNTN6": {
+  "disease_chinese_name": "自闭症"
+ },
+ "LOC129391296": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "OGDHL": {
+  "disease_chinese_name": "脑形态异常"
+ },
+ "ARHGAP11B": {
+  "disease_chinese_name": "15q13.3 染色体微缺失综合征"
+ },
+ "TRAK1": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "SMARCA5": {
+  "disease_chinese_name": "身材矮小"
+ },
+ "HID1": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "DOT1L": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "YIF1B": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "CAMK2D": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "LTBP1": {
+  "disease_chinese_name": "遗传性痉挛性截瘫 4 型"
+ },
+ "NPM1": {
+  "disease_chinese_name": "急性髓系白血病"
+ },
+ "GRIA1": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "SPATA22": {
+  "disease_chinese_name": "中枢神经系统海绵状变性"
+ },
+ "LOC129933455": {
+  "disease_chinese_name": "遗传性痉挛性截瘫 4 型"
+ },
+ "SVIL": {
+  "disease_chinese_name": "脑形态异常"
+ },
+ "HHAT": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "HNRNPR": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "DSCAM": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "HKDC1": {
+  "disease_chinese_name": "身材矮小"
+ },
+ "THUMPD1": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "LOC126806216": {
+  "disease_chinese_name": "自闭症"
+ },
+ "MDGA2": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "B4GAT1": {
+  "disease_chinese_name": "肌营养不良-抗肌萎缩相关糖蛋白病"
+ },
+ "LOC107652445": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "LOC129933454": {
+  "disease_chinese_name": "遗传性痉挛性截瘫 4 型"
+ },
+ "NDUFA6": {
+  "disease_chinese_name": "线粒体病"
+ },
+ "KLHL20": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "ACBD6": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "LOC126859871": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "GOLGA8H": {
+  "disease_chinese_name": "15q13.3 染色体微缺失综合征"
+ },
+ "ITGAV": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "TRIM63": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "DOCK8-AS1": {
+  "disease_chinese_name": "自闭症"
+ },
+ "CSMD1": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "TIMM50": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "LAS1L": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "GOLGA6L1": {
+  "disease_chinese_name": "全面性发育迟缓"
+ },
+ "LNCR-SMAL": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "SLC44A1": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "STX1A": {
+  "disease_chinese_name": "神经发育异常"
+ },
+ "TRAPPC10": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "FOSL2": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "ZMYND8": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "SPOUT1": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "GABRA3": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "NPIPB4": {
+  "disease_chinese_name": "16p12.1 染色体缺失综合征"
+ },
+ "WBP4": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "TOP2B": {
+  "disease_chinese_name": "自闭症谱系障碍"
+ },
+ "SNAPIN": {
+  "disease_chinese_name": "脑形态异常"
+ },
+ "PTPRT": {
+  "disease_chinese_name": "脑形态异常"
+ },
+ "TASP1": {
+  "disease_chinese_name": "全面性发育迟缓"
+ },
+ "NDUFAF8": {
+  "disease_chinese_name": "线粒体病"
+ },
+ "FAM50A": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "CASP2": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "DDX23": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "LOC123956262": {
+  "disease_chinese_name": "自闭症"
+ },
+ "LOC129389920": {
+  "disease_chinese_name": "自闭症"
+ },
+ "REV3L": {
+  "disease_chinese_name": "结肠癌"
+ },
+ "FHIT": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "BAX": {
+  "disease_chinese_name": "结肠癌"
+ },
+ "LOC129391297": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "FRG1": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "ABCA13": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "BIRC6": {
+  "disease_chinese_name": "遗传性痉挛性截瘫 4 型"
+ },
+ "JAK1": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "RBFOX2": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "LYSET": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "CAPN10": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "MIR302CHG": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "FBXO22": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "DDX17": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "GSK3B": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "LOC129390761": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "DPY30": {
+  "disease_chinese_name": "遗传性痉挛性截瘫 4 型"
+ },
+ "DOCK4": {
+  "disease_chinese_name": "自闭症"
+ },
+ "PTPRJ": {
+  "disease_chinese_name": "结肠癌"
+ },
+ "MCC": {
+  "disease_chinese_name": "结肠癌"
+ },
+ "LOC129933452": {
+  "disease_chinese_name": "遗传性痉挛性截瘫 4 型"
+ },
+ "LOC129933453": {
+  "disease_chinese_name": "遗传性痉挛性截瘫 4 型"
+ },
+ "CPLX1": {
+  "disease_chinese_name": "脑形态异常"
+ },
+ "SPNS2": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "LOC107325936": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "UBR4": {
+  "disease_chinese_name": "身材矮小"
+ },
+ "SLC7A8": {
+  "disease_chinese_name": "身材矮小"
+ },
+ "PSMD11": {
+  "disease_chinese_name": "身材矮小"
+ },
+ "DNAH14": {
+  "disease_chinese_name": "神经发育障碍"
+ },
+ "NDUFC2": {
+  "disease_chinese_name": "线粒体病"
+ },
+ "CCDC82": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "HECTD1": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "PARD3B": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "YIPF4": {
+  "disease_chinese_name": "遗传性痉挛性截瘫 4 型"
+ },
+ "MAP4K2": {
+  "disease_chinese_name": "遗传性癌症易感综合征"
+ },
+ "ARHGAP32": {
+  "disease_chinese_name": "全面性发育迟缓"
+ },
+ "MACROD2": {
+  "disease_chinese_name": "自闭症"
+ },
+ "LOC126859870": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "PACRG": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "DLGAP2": {
+  "disease_chinese_name": "精神分裂症"
+ },
+ "RAD54B": {
+  "disease_chinese_name": "结肠癌"
+ },
+ "COX6B1": {
+  "disease_chinese_name": "线粒体复合物 IV 缺乏症 1 型"
+ },
+ "MYT1": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "LOC126806462": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "LOC129388840": {
+  "disease_chinese_name": "遗传性痉挛性截瘫 4 型"
+ },
+ "LOC129933456": {
+  "disease_chinese_name": "遗传性痉挛性截瘫 4 型"
+ },
+ "MTIF2": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "RPUSD3": {
+  "disease_chinese_name": "先天性遗传病"
+ },
+ "ASTN1": {
+  "disease_chinese_name": "脑形态异常"
+ },
+ "GTF3C1": {
+  "disease_chinese_name": "脑形态异常"
+ },
+ "USP11": {
+  "disease_chinese_name": "脑形态异常"
+ },
+ "AQP4": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "PACS2": {
+  "disease_chinese_name": "智力障碍"
+ },
+ "PIGM": {
+  "disease_chinese_name": "先天性遗传病"
  }
 }
