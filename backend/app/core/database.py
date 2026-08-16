@@ -140,6 +140,8 @@ class KnowledgeBase:
         disease_ini = pinyin_initials(disease_zh)
 
         score = 0.0
+        if assoc.association_id.startswith("GDA_"):
+            score += 30  # 精選（人工審核）基因優先於自動匯入的批量基因
         if symbol == q:
             score += 100
         elif symbol.startswith(q):

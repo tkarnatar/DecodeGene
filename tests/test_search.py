@@ -45,6 +45,6 @@ def test_search_bulk_gene_by_symbol():
 
 
 def test_search_lynch_no_false_positive():
-    symbols = [a.gene.symbol for a in kb.search("Lynch")]
+    symbols = [a.gene.symbol for a in kb.search("Lynch", limit=50)]
     assert "MLH1" in symbols
     assert "MTHFR" not in symbols
