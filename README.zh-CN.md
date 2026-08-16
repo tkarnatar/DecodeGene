@@ -141,7 +141,7 @@ DecodeGene 内置一个**精心筛选的示例知识库**——当前 **20 个�
 
 ## 🤝 参与贡献
 
-欢迎任何形式的贡献（代码、翻译、数据、文档）！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 与 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)。
+欢迎任何形式的贡献（代码、翻译、数据、文档）！请阅读 [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md) 与 [CODE_OF_CONDUCT.zh-CN.md](CODE_OF_CONDUCT.zh-CN.md)。
 
 ---
 
