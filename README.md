@@ -13,6 +13,10 @@
 > **语言 / Language**: 本页面为中英双语。The documentation is bilingual (中文 / English).
 > The web app also ships with a one-click **中文 / English** UI switcher.
 
+<div align="center">
+  <img src="assets/banner.png" alt="DecodeGene 解码基因" width="100%" />
+</div>
+
 ---
 
 ## 🌟 项目使命 · Our Mission
