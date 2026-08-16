@@ -3,7 +3,7 @@ import { useLanguage } from '../i18n.jsx'
 import { fetchExplainReport } from '../api.js'
 
 export default function ReportDecoder() {
-  const { t } = useLanguage()
+  const { lang, t } = useLanguage()
   const [rawText, setRawText] = useState('')
   const [result, setResult] = useState(null)
   const [loading, setLoading] = useState(false)
@@ -22,7 +22,7 @@ export default function ReportDecoder() {
     setError('')
     setResult(null)
     try {
-      const data = await fetchExplainReport(rawText)
+      const data = await fetchExplainReport(rawText, lang)
       setResult(data)
     } catch {
       setError(t('rd_error'))

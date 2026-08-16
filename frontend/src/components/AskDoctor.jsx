@@ -3,7 +3,7 @@ import { useLanguage } from '../i18n.jsx'
 import { askChatStream } from '../api.js'
 
 export default function AskDoctor() {
-  const { t } = useLanguage()
+  const { lang, t } = useLanguage()
   const [messages, setMessages] = useState([])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
@@ -39,6 +39,7 @@ export default function AskDoctor() {
           })
         },
         () => setLoading(false),
+        lang,
       )
     } catch {
       setMessages((m) => {

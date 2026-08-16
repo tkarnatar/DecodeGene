@@ -96,35 +96,44 @@ class KnowledgeBase:
                 assoc.myth_buster = MythBuster(myth=n["myth"], truth=n["truth"])
 
     def _load_narratives_en(self) -> None:
-        """Merge AI-generated English narratives into bulk associations."""
-        path = settings.BULK_NARRATIVES_EN_PATH
-        if not path or not path.exists():
-            return
-        try:
-            narratives = json.loads(path.read_text(encoding="utf-8"))
-        except (json.JSONDecodeError, OSError):
-            return
-        if not isinstance(narratives, dict):
-            return
-        for assoc in self.associations:
-            n = narratives.get(assoc.gene.symbol)
-            if not n:
+        """Merge AI-generated English narratives into curated & bulk associations."""
+        paths = [settings.SAMPLE_NARRATIVES_EN_PATH, settings.BULK_NARRATIVES_EN_PATH]
+        for path in paths:
+            if not path or not path.exists():
                 continue
-            if n.get("metaphor_title"):
-                assoc.gene.metaphor_title_en = n["metaphor_title"]
-                assoc.gene.metaphor_story_en = n.get("metaphor_story", "")
-            if n.get("plain_summary"):
-                assoc.gene.plain_summary_en = n["plain_summary"]
-            if n.get("screening_advice"):
-                assoc.lifestyle_prevention.screening_advice_en = n["screening_advice"]
-            if n.get("lifestyle_tips"):
-                assoc.lifestyle_prevention.lifestyle_tips_en = n["lifestyle_tips"]
-            if n.get("key_questions"):
-                assoc.doctor_checklist.key_questions_en = n["key_questions"]
-            if n.get("myth") and n.get("truth"):
-                assoc.myth_buster = assoc.myth_buster or MythBuster()
-                assoc.myth_buster.myth_en = n["myth"]
-                assoc.myth_buster.truth_en = n["truth"]
+            try:
+                narratives = json.loads(path.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            if not isinstance(narratives, dict):
+                continue
+            for assoc in self.associations:
+                n = narratives.get(assoc.gene.symbol)
+                if not n:
+                    continue
+                if n.get("gene_name") and assoc.gene.name in ("", assoc.gene.symbol):
+                    assoc.gene.name = n["gene_name"]
+                if n.get("metaphor_title"):
+                    assoc.gene.metaphor_title_en = n["metaphor_title"]
+                    assoc.gene.metaphor_story_en = n.get("metaphor_story", "")
+                if n.get("plain_summary"):
+                    assoc.gene.plain_summary_en = n["plain_summary"]
+                if n.get("screening_advice"):
+                    assoc.lifestyle_prevention.screening_advice_en = n["screening_advice"]
+                if n.get("lifestyle_tips"):
+                    assoc.lifestyle_prevention.lifestyle_tips_en = n["lifestyle_tips"]
+                if n.get("key_questions"):
+                    assoc.doctor_checklist.key_questions_en = n["key_questions"]
+                if n.get("recommended_specialty"):
+                    assoc.doctor_checklist.recommended_specialty_en = n["recommended_specialty"]
+                if n.get("severity_badge"):
+                    assoc.disease.severity_badge_en = n["severity_badge"]
+                if n.get("plain_rating"):
+                    assoc.evidence.plain_rating_en = n["plain_rating"]
+                if n.get("myth") and n.get("truth"):
+                    assoc.myth_buster = assoc.myth_buster or MythBuster()
+                    assoc.myth_buster.myth_en = n["myth"]
+                    assoc.myth_buster.truth_en = n["truth"]
 
     # ----------------------------------------------------------------- index
     def _add_token(self, token: str, assoc: GeneDiseaseAssociation) -> None:

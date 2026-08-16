@@ -3,7 +3,7 @@ import { useLanguage } from '../i18n.jsx'
 import { fetchInheritance } from '../api.js'
 
 export default function FamilySimulator() {
-  const { t } = useLanguage()
+  const { lang, t } = useLanguage()
   const [pattern, setPattern] = useState('AD')
   const [father, setFather] = useState('normal')
   const [mother, setMother] = useState('normal')
@@ -20,6 +20,7 @@ export default function FamilySimulator() {
         pattern,
         father_status: father,
         mother_status: mother,
+        lang,
       })
       setResult(data)
     } catch {

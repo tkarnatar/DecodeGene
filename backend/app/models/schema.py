@@ -28,12 +28,14 @@ class DiseaseEntity(BaseModel):
     categories: List[str] = Field(default_factory=list)
     severity_level: str = ""
     severity_badge: str = ""
+    severity_badge_en: str = ""
     common_symptoms: List[str] = Field(default_factory=list)
 
 
 class Evidence(BaseModel):
     overall_score: float = 0.0
     plain_rating: str = ""
+    plain_rating_en: str = ""
     professional_rating: str = ""
     star_rating: int = 0
     clinvar_pathogenic_count: int = 0
@@ -52,6 +54,7 @@ class DoctorChecklist(BaseModel):
     gene_symbol: str = ""
     disease_name: str = ""
     recommended_specialty: str = ""
+    recommended_specialty_en: str = ""
     key_questions: List[str] = Field(default_factory=list)
     screening_tests: List[str] = Field(default_factory=list)
     key_questions_en: List[str] = Field(default_factory=list)
@@ -79,16 +82,19 @@ class GeneticReportQuery(BaseModel):
     detected_gene: Optional[str] = None
     detected_variant: Optional[str] = None
     zygosity: Optional[str] = None
+    lang: str = "zh"
 
 
 class ChatRequest(BaseModel):
     message: str = ""
+    lang: str = "zh"
 
 
 class FamilyInheritanceQuery(BaseModel):
     pattern: Literal["AD", "AR", "XR", "XD"] = "AD"
     father_status: Literal["affected", "carrier", "normal"] = "normal"
     mother_status: Literal["affected", "carrier", "normal"] = "normal"
+    lang: str = "zh"
 
 
 class SexRisk(BaseModel):

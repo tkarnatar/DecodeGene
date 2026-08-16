@@ -74,6 +74,11 @@ class Settings:
                 "BULK_NARRATIVES_EN_PATH", "../data/processed/bulk_narratives_en.json"
             )
         )
+        self.SAMPLE_NARRATIVES_EN_PATH = _resolve_path(
+            os.getenv(
+                "SAMPLE_NARRATIVES_EN_PATH", "../data/processed/sample_narratives_en.json"
+            )
+        )
 
 
 @lru_cache

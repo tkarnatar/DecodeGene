@@ -1,0 +1,426 @@
+{
+  "BRCA1": {
+    "gene_name": "Breast cancer type 1 susceptibility protein",
+    "metaphor_title": "🧬 The [DNA Car Mechanic] Inside Your Cells",
+    "metaphor_story": "Your cells run at full speed every day, and DNA inevitably picks up small faults (like wear and tear). BRCA1 acts like an experienced senior mechanic who fixes any fault the moment it appears. If the mechanic mutates and goes on strike, broken parts stay on the road, and over time the car is far more likely to suffer a major breakdown (a malignant tumor) than usual.",
+    "plain_summary": "BRCA1 is your body's built-in cancer defender. Carrying a pathogenic mutation does NOT mean you will definitely get cancer — it means your lifetime risk of breast or ovarian cancer is higher than average, so you need to start scientific screening and prevention at an earlier age.",
+    "screening_advice": "Starting at age 25, have a clinical breast exam every 6–12 months; from age 30, add annual breast MRI combined with mammography.",
+    "lifestyle_tips": [
+      "Maintain a healthy weight, keep regular sleep, and avoid long-term sleep deprivation and high-fat diets",
+      "Stop smoking and limit alcohol (alcohol raises estrogen levels)",
+      "If appropriate, breastfeed under medical guidance, which may help lower risk"
+    ],
+    "key_questions": [
+      "My report shows a BRCA1 mutation — at what age should I start breast MRI screening?",
+      "Besides the breast, what screening (CA125, transvaginal ultrasound) do you recommend for my ovaries and fallopian tubes?",
+      "Should my first-degree relatives (mother, sisters, children) get tested for the same variant?",
+      "If I plan to have children, is there a technique like preimplantation genetic testing (PGT) to block passing on the mutation?"
+    ],
+    "severity_badge": "⚠️ High concern (scientifically preventable & treatable)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Highest-level confirmed (Definitive)",
+    "myth": "'If I test positive for BRCA1, will I definitely get cancer within a few years?'",
+    "truth": "No! A mutation only raises your probability (lifetime risk ~60–70% vs ~12% for the general population), it is not 100%. With regular screening, lifestyle changes and even preventive medication, most carriers stay healthy and detect any cancer early, when it is most curable.",
+    "recommended_specialty": "Breast Surgery / Oncology / Clinical Genetics"
+  },
+  "APOE": {
+    "gene_name": "Apolipoprotein E",
+    "metaphor_title": "🧠 The [Trash Truck] Inside Your Brain",
+    "metaphor_story": "The brain produces harmful metabolic waste as it works (like sticky amyloid protein). APOE is like a cleaning truck that patrols the brain daily to haul away trash. APOE has three main forms (ε2, ε3, ε4). If you carry the ε4 form, the cleaning is slower, waste settles and builds up in the brain, and over the years this raises the risk of developing Alzheimer's disease (dementia) in old age.",
+    "plain_summary": "APOE ε4 is the most common genetic risk marker for late-onset Alzheimer's. It is a 'susceptibility gene', not a 'deterministic disease gene' — carriers who actively protect their heart and brain blood vessels and keep their mind active may well never develop the disease.",
+    "screening_advice": "From age 50, add an annual MoCA cognitive screen and regularly monitor blood pressure, blood sugar, and LDL cholesterol.",
+    "lifestyle_tips": [
+      "Follow a Mediterranean diet: more oily fish (omega-3), nuts, olive oil and dark leafy vegetables",
+      "Lifelong learning: play bridge, read, learn an instrument or a language to build cognitive reserve",
+      "Get enough deep sleep, which helps cerebrospinal fluid clear metabolic toxins at night"
+    ],
+    "key_questions": [
+      "I found out I carry APOE ε4 — do I need routine brain MRI or cognitive assessments?",
+      "How should I keep my lipids and blood pressure in an ideal range to protect my brain blood vessels?",
+      "Do ginkgo, DHA or 'brain-boosting' supplements really help prevent dementia?"
+    ],
+    "severity_badge": "💡 Susceptibility risk factor (non-deterministic)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Strong scientific consensus",
+    "myth": "'I carry two APOE ε4 alleles, so I will definitely get dementia when I'm old?'",
+    "truth": "Absolutely not! Genes are only part of the story. Vascular health, diet, exercise and mental activity play a hugely protective role. Many people with two ε4 alleles remain sharp and healthy well into old age.",
+    "recommended_specialty": "Neurology / Memory Clinic / Geriatrics"
+  },
+  "EGFR": {
+    "gene_name": "Epidermal growth factor receptor",
+    "metaphor_title": "🚦 The [Growth Gas Pedal] on the Cell Surface",
+    "metaphor_story": "Normal cells only gently tap the gas when the body orders growth. If EGFR in lung cells mutates, it's like the gas pedal rusting and jamming in the 'floored' position — the cells grow out of control and form lung cancer. The good news: modern medicine has invented a precise 'brake key' (targeted drugs like osimertinib) that locks the pedal and stops the cancer cells from growing.",
+    "plain_summary": "EGFR mutation is one of the most common and best-treatable targets in non-small cell lung cancer. Up to 50% of Chinese lung adenocarcinoma patients carry it, and many achieve long-term disease control and a good quality of life with a daily oral targeted drug.",
+    "screening_advice": "Long-term smokers, people with heavy kitchen-oil exposure, or a family history of lung cancer should have an annual low-dose chest CT (LDCT) starting at age 40.",
+    "lifestyle_tips": [
+      "Avoid first- and second-hand smoke; use a strong range hood when cooking",
+      "Keep indoor air ventilated; wear a mask on high-pollution days",
+      "Avoid occupational exposure to radon and asbestos"
+    ],
+    "key_questions": [
+      "My biopsy shows an EGFR mutation — should I start a 1st, 2nd or 3rd generation TKI (e.g. osimertinib)?",
+      "What side effects of targeted therapy (rash, diarrhea) should I watch for, and how can I manage them?",
+      "How often should I repeat chest CT and brain MRI during treatment?"
+    ],
+    "severity_badge": "🎯 Prime treatment target (targeted drugs highly effective)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Top guideline recommendation for precision therapy (FDA / NMPA approved)",
+    "myth": "'Lung cancer always needs chemotherapy, which causes hair loss and severe weight loss, right?'",
+    "truth": "Not necessarily! If you carry a sensitive mutation like EGFR, the first choice is usually an oral targeted drug — as convenient as taking a blood-pressure pill — with no hair loss and mild side effects, letting most patients live and work normally at home.",
+    "recommended_specialty": "Thoracic Surgery / Medical Oncology / Respiratory Medicine"
+  },
+  "TP53": {
+    "metaphor_title": "🚨 The [Emergency Brake Pad] Inside Cells",
+    "metaphor_story": "Every cell is like a car, and TP53 is the brake pad and security guard that inspects them. The moment it finds a cell going bad (severely damaged DNA), it slams the brakes and orders the abnormal cell to self-destruct. If the brake fails, bad cells multiply without restraint and eventually form tumors.",
+    "plain_summary": "TP53 is called the 'guardian of the genome' — it detects and destroys cells that go bad. Carriers of a pathogenic mutation have a higher risk of several early-onset cancers and need regular full-body screening.",
+    "screening_advice": "From childhood/adolescence, enter the Li-Fraumeni screening protocol: annual full-body check-ups, abdominal ultrasound, breast MRI (female), etc., with an individualized plan set by a genetics clinic.",
+    "lifestyle_tips": [
+      "Avoid unnecessary radiation imaging (e.g. repeated CT) to reduce exposure",
+      "Practice sun protection, quit smoking and limit alcohol, keep a healthy weight",
+      "Keep regular exercise and adequate sleep to support overall immunity"
+    ],
+    "key_questions": [
+      "I carry a TP53 mutation — at what age and how often should I start tumor screening?",
+      "What symptoms (unexplained lumps, persistent bone pain) mean I should see a doctor right away?",
+      "Should my children get early genetic testing and counseling?"
+    ],
+    "severity_badge": "⚠️ High concern (needs systematic screening)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Highest-level confirmed (Definitive)",
+    "myth": "'A TP53 mutation is a cancer switch — carriers are doomed to many cancers?'",
+    "truth": "No! A TP53 mutation raises the risk of multiple tumors, but with regular screening for early detection and treatment, most carriers have a good prognosis.",
+    "recommended_specialty": "Oncology / Clinical Genetics / Genetic Counseling"
+  },
+  "CFTR": {
+    "metaphor_title": "🚰 The [Mucus Faucet Regulator] on the Cell Surface",
+    "metaphor_story": "CFTR regulates the flow of salt and water across cell surfaces, like a faucet controlling mucus thickness. If the faucet breaks, mucus in the lungs and digestive tract becomes thick and sticky, blocking airways and pancreatic ducts and causing repeated infections and poor digestion (cystic fibrosis).",
+    "plain_summary": "Cystic fibrosis caused by CFTR mutations is an autosomal recessive disease. You only develop symptoms if you inherit a pathogenic copy from BOTH parents; carrying one copy makes you a symptom-free 'carrier'.",
+    "screening_advice": "Newborns receive a heel-prick screen after birth; after diagnosis, manage long-term with respiratory and nutrition teams, daily airway clearance, and CFTR modulators where eligible.",
+    "lifestyle_tips": [
+      "Do regular chest physiotherapy to keep airways clear",
+      "High-calorie, high-nutrition diet with fat-soluble vitamins and pancreatic enzymes",
+      "Keep vaccinations up to date and avoid cross-infection"
+    ],
+    "key_questions": [
+      "My child was diagnosed with cystic fibrosis — do they need CFTR modulator gene-matching testing?",
+      "How should I schedule daily airway clearance and medications?",
+      "If we have another child, how can prenatal diagnosis or PGT prevent passing it on?"
+    ],
+    "severity_badge": "⚠️ Needs systematic management (modern treatment greatly improves prognosis)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Definitive disease gene (Definitive)",
+    "myth": "'Cystic fibrosis is a terminal disease and children won't live long?'",
+    "truth": "Not true! With CFTR modulators and precision treatment, life expectancy and quality of life have improved dramatically. Early diagnosis and early intervention are key.",
+    "recommended_specialty": "Respiratory Medicine / Pediatrics / Genetics Clinic"
+  },
+  "G6PD": {
+    "metaphor_title": "🛡️ The [Anti-Rust Coating] on Red Blood Cells",
+    "metaphor_story": "Red blood cells carry oxygen every day and are easily 'rusted' by oxidation. G6PD is like a rust-proof coating on red blood cells. People lacking this coating can suffer massive red-cell rupture (hemolysis) if they eat fava beans or take certain drugs — the condition known as 'favism'.",
+    "plain_summary": "G6PD deficiency (favism) is an X-linked recessive condition. As long as you avoid fava beans and specific drugs (e.g. sulfonamides, aspirin), most carriers live a fully healthy life.",
+    "screening_advice": "Some regions screen newborns for G6PD; after diagnosis, always carry a 'forbidden foods/drugs' card and tell your doctor before any treatment.",
+    "lifestyle_tips": [
+      "Strictly avoid fava beans and their products (bean starch noodles, fermented bean paste)",
+      "Avoid oxidizing drugs such as sulfonamides, aspirin and vitamin K (ask your doctor/pharmacist first)",
+      "Avoid strong oxidizing agents like mothballs (naphthalene)"
+    ],
+    "key_questions": [
+      "I have G6PD deficiency — which drugs should I especially avoid when prescribed?",
+      "What symptoms (dark urine, fatigue, jaundice) suggest hemolysis and require urgent care?",
+      "Should other family members also get tested for G6PD?"
+    ],
+    "severity_badge": "✅ Preventable & controllable (just avoid triggers)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Definitive disease gene (Definitive)",
+    "myth": "'Once you have favism, can you never take any medicine again?'",
+    "truth": "No! As long as you avoid known oxidizing triggers, most medicines remain safe. The key is to always tell your doctor you carry G6PD deficiency.",
+    "recommended_specialty": "Pediatrics / Hematology / Genetics Clinic"
+  },
+  "BRCA2": {
+    "metaphor_title": "🧰 The [Second Repair Technician] Fighting Alongside BRCA1",
+    "metaphor_story": "BRCA2 is BRCA1's partner, delivering spare parts for DNA repair. When this technician also fails, DNA breaks can't be repaired precisely, raising the risk of breast, ovarian and other cancers.",
+    "plain_summary": "BRCA2 works shoulder-to-shoulder with BRCA1, delivering spare parts for DNA repair. A pathogenic mutation raises the risk of breast, ovarian, pancreatic and male breast cancer — but it is by no means inevitable; early screening is highly effective at prevention.",
+    "screening_advice": "Women: clinical breast exam every 6–12 months from age 25, annual breast MRI + mammography from age 30; male carriers should be aware of breast, prostate and pancreatic cancer screening.",
+    "lifestyle_tips": [
+      "Maintain a healthy weight, regular sleep, quit smoking and limit alcohol",
+      "Women may consider oral contraceptives under medical advice to lower ovarian cancer risk (weigh risks and benefits)",
+      "Those planning children can consult about PGT to block inheritance"
+    ],
+    "key_questions": [
+      "My BRCA2 report mentions prostate/pancreatic risk — should male relatives be screened?",
+      "At what age and interval should I do breast MRI and ovarian screening?",
+      "Is preventive surgery (mastectomy/oophorectomy) recommended, and how do I weigh risks and benefits?"
+    ],
+    "severity_badge": "⚠️ High concern (scientifically preventable & treatable)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Highest-level confirmed (Definitive)",
+    "myth": "'Does BRCA2 also mean I will definitely get breast cancer, just like BRCA1?'",
+    "truth": "No! BRCA2 likewise only raises risk (lifetime breast cancer risk ~50–70%). With regular screening and intervention, most carriers stay healthy.",
+    "recommended_specialty": "Breast Surgery / Oncology / Clinical Genetics"
+  },
+  "MLH1": {
+    "metaphor_title": "🧩 The [DNA Proofreader] Inside Cells",
+    "metaphor_story": "Every time a cell divides it copies a whole 'instruction manual' of DNA and inevitably makes a few typos. MLH1 is like a meticulous proofreader that finds and corrects these copying mistakes. If the proofreader fails, errors pile up and can eventually 'print out' cancer cells in the bowel and other organs.",
+    "plain_summary": "MLH1 mutation is one of the most common causes of Lynch syndrome, significantly raising the risk of colorectal, endometrial and stomach cancer. Regular colonoscopy greatly reduces mortality.",
+    "screening_advice": "From age 20–25, have a colonoscopy every 1–2 years; women should also consider endometrial cancer screening (e.g. transvaginal ultrasound), with an individualized follow-up plan from a genetics clinic.",
+    "lifestyle_tips": [
+      "Eat more fiber and fresh fruits/vegetables; eat less red and processed meat",
+      "Quit smoking, limit alcohol, keep a healthy weight and exercise regularly",
+      "See a doctor promptly for blood in stool, changed bowel habits or unexplained weight loss"
+    ],
+    "key_questions": [
+      "I have Lynch syndrome — at what age and interval should I have colonoscopy?",
+      "Besides the colon, do I need extra screening for the stomach or endometrium?",
+      "Should my siblings and children all get genetic testing?"
+    ],
+    "severity_badge": "⚠️ Needs regular colonoscopy (preventable & treatable)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Highest-level confirmed (Definitive)",
+    "myth": "'Lynch syndrome means I'll definitely get bowel cancer and can only wait for it?'",
+    "truth": "Completely wrong! Regular colonoscopy from young adulthood removes polyps at the polyp stage, dramatically lowering bowel-cancer incidence and mortality.",
+    "recommended_specialty": "Gastroenterology / Colorectal Surgery / Clinical Genetics"
+  },
+  "MTHFR": {
+    "metaphor_title": "🔄 The [Folate Processing Line Worker]",
+    "metaphor_story": "MTHFR is the assembly-line worker that converts folate into the active form your body can use. Some people carry a slightly less efficient version, so their folate utilization drops a bit, which may affect homocysteine levels. This is a common 'constitutional difference' — most people only need to eat more folate-rich vegetables.",
+    "plain_summary": "MTHFR is involved in folate metabolism. Common low-activity variants (e.g. C677T homozygous) slightly reduce folate utilization and may mildly raise homocysteine. Most people just need folate-rich foods — no need to worry excessively.",
+    "screening_advice": "If a blood test shows elevated homocysteine, consider folic acid / B-vitamin supplements under medical guidance and re-check regularly; otherwise no special screening is needed for healthy people.",
+    "lifestyle_tips": [
+      "Eat more dark leafy greens (spinach, broccoli), legumes and whole grains",
+      "If needed, take folic acid, vitamin B6 and B12 under medical guidance",
+      "Quit smoking, limit alcohol, and keep a balanced diet"
+    ],
+    "key_questions": [
+      "My MTHFR test shows C677T homozygous — do I need treatment?",
+      "My homocysteine is high — do I need folic acid? At what dose?",
+      "Should I take extra or special folic acid when planning pregnancy?"
+    ],
+    "severity_badge": "💡 Common constitutional difference (usually no special handling)",
+    "plain_rating": "⭐️⭐️⭐️ Scientifically associated but needs individualized interpretation",
+    "myth": "'An MTHFR variant is a folate metabolism disorder that causes miscarriage, autism and all sorts of diseases?'",
+    "truth": "Exaggerated! MTHFR variants are extremely common (about half the population carries one). Most people have no symptoms at all — just eat a balanced diet and take folic acid if needed. Don't be scared by commercial testing marketing.",
+    "recommended_specialty": "General Practice / Nutrition / Cardiology"
+  },
+  "HFE": {
+    "metaphor_title": "🚪 The [Iron Gatekeeper] in the Intestine",
+    "metaphor_story": "Our body needs iron, but too much iron also 'rusts' and damages the liver. HFE is like a gatekeeper in the intestine that controls how much iron is absorbed. If the gatekeeper slacks off (mutates), excess iron gets in and accumulates in the liver, heart and pancreas over the years, causing 'hemochromatosis'.",
+    "plain_summary": "HFE mutations (e.g. C282Y homozygous) cause the intestine to over-absorb iron, which accumulates and damages the liver, heart and pancreas. Detected early, it is easily controlled by regular phlebotomy, with a good prognosis.",
+    "screening_advice": "After diagnosis, monitor serum ferritin and transferrin saturation every 3–6 months, and have regular therapeutic phlebotomy as advised by your doctor.",
+    "lifestyle_tips": [
+      "Avoid extra iron supplements and vitamin C (which promotes iron absorption)",
+      "Limit iron-rich foods like red meat and organ meats",
+      "Avoid alcohol to reduce the burden on the liver"
+    ],
+    "key_questions": [
+      "My ferritin and transferrin saturation are high — do I need an HFE genetic test?",
+      "How should I schedule the frequency and course of phlebotomy?",
+      "Should my relatives also be screened for iron metabolism?"
+    ],
+    "severity_badge": "✅ Preventable & controllable (regular phlebotomy suffices)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Definitive disease gene (Definitive)",
+    "myth": "'Hemochromatosis has no cure, so the liver will eventually harden?'",
+    "truth": "Wrong! Hemochromatosis is one of the few 'very easy to treat' genetic diseases — regular phlebotomy effectively removes excess iron. Detected and treated early, the prognosis is usually excellent.",
+    "recommended_specialty": "Hematology / Hepatology / Genetics Clinic"
+  },
+  "ALDH2": {
+    "metaphor_title": "🍺 The [Hangover-Enzyme Cleaner] in Your Body",
+    "metaphor_story": "After drinking, alcohol first turns into a toxic intermediate called 'acetaldehyde'. ALDH2 is the cleaner responsible for clearing it away. About one-third of East Asians have a naturally less-efficient cleaner, so acetaldehyde can't be cleared fast enough, causing facial flushing and a racing heart — the body's 'alarm' telling you to drink less.",
+    "plain_summary": "ALDH2 is the 'hangover enzyme' that further breaks down acetaldehyde from drinking. About one-third of East Asians carry the less-active ALDH2*2 variant; they flush easily and, if they drink heavily over the long term, face a higher risk of esophageal cancer.",
+    "screening_advice": "No special screening needed; those who flush should drink less or not at all, and long-term drinkers should watch their esophageal/upper GI health.",
+    "lifestyle_tips": [
+      "Reduce or avoid alcohol, especially on an empty stomach or in large amounts",
+      "People who flush easily should strictly limit drinking",
+      "Quit smoking to avoid the combined damage to the upper digestive tract"
+    ],
+    "key_questions": [
+      "I flush easily when I drink — should I quit alcohol completely?",
+      "How much does long-term light drinking affect my esophageal cancer risk?",
+      "Should my first-degree relatives also know about this trait?"
+    ],
+    "severity_badge": "💡 Common constitutional difference (just drink less)",
+    "plain_rating": "⭐️⭐️⭐️⭐️ Clear trait difference with risk association",
+    "myth": "'Flushing when you drink means you can hold your liquor?'",
+    "truth": "Exactly the opposite! Flushing means acetaldehyde is building up and your enzyme is inefficient — it's the body sounding an 'alarm'. These people should actually drink LESS.",
+    "recommended_specialty": "Gastroenterology / General Practice"
+  },
+  "LDLR": {
+    "metaphor_title": "🧹 The [Bad-Cholesterol Cleaner] in Your Blood Vessels",
+    "metaphor_story": "When 'bad cholesterol' (LDL) builds up in the blood, it clogs vessels. LDLR is like a cleaner on the vessel walls that recycles bad cholesterol back to the liver for disposal. When there are too few cleaners (mutation), bad cholesterol accumulates and can cause heart attack or stroke at a young age.",
+    "plain_summary": "LDLR is like a 'bad-cholesterol cleaner' in the vessels that returns LDL to the liver. Mutations reduce the number of cleaners, so bad cholesterol accumulates and greatly raises early heart-attack risk. The earlier you start lipid-lowering therapy, the greater the benefit.",
+    "screening_advice": "Start monitoring blood lipids from childhood/adolescence; after diagnosis, start statins and other lipid-lowering therapy early and regularly check LDL-C targets and cardiovascular risk.",
+    "lifestyle_tips": [
+      "Low saturated fat, low cholesterol diet with more fruits, vegetables and whole grains",
+      "Regular aerobic exercise, weight control, quit smoking",
+      "Take statins/ezetimibe as prescribed — never stop on your own"
+    ],
+    "key_questions": [
+      "I have familial hypercholesterolemia — what LDL-C target should I reach?",
+      "Do I need statins for life, and what side effects should I watch for?",
+      "Should my children and siblings get their lipids or genes tested early?"
+    ],
+    "severity_badge": "⚠️ Needs active lipid-lowering (effectively controllable)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Definitive disease gene (Definitive)",
+    "myth": "'I'm young, so a slightly high cholesterol is no big deal — I'll deal with it when I'm older?'",
+    "truth": "For FH patients, bad cholesterol has been damaging vessels since birth. The earlier you lower it, the greater the benefit — youth is never an 'exemption'.",
+    "recommended_specialty": "Cardiology / Lipid Clinic"
+  },
+  "HBB": {
+    "metaphor_title": "🧱 The [Oxygen-Carrying Brick] in Hemoglobin",
+    "metaphor_story": "Hemoglobin is the 'freight car' inside red blood cells that carries oxygen, and HBB is the key brick that builds the car. If the brick is defective, the car (red blood cells) becomes fragile and breaks easily, causing thalassemia; in sickle-cell disease, the brick also makes red cells stiff and stuck in vessels.",
+    "plain_summary": "HBB is the key component that builds hemoglobin (the 'freight car' that carries oxygen in red cells). Defects make red cells fragile (thalassemia) or deformed and stuck (sickle-cell disease). Carrier rates are high in southern China, so pre-marital/pre-pregnancy screening matters.",
+    "screening_advice": "Have thalassemia screening before marriage/pregnancy (especially in high-prevalence southern China); diagnosed patients need regular transfusion, iron chelation, and severe cases may be evaluated for stem-cell transplant.",
+    "lifestyle_tips": [
+      "Thalassemia patients should NOT blindly take iron — follow medical advice to avoid iron overload",
+      "Balanced nutrition and regular blood-count and ferritin follow-up",
+      "Both partners should be screened when planning pregnancy to assess fetal risk"
+    ],
+    "key_questions": [
+      "I'm a thalassemia carrier — does my partner need screening too?",
+      "Do I need prenatal diagnosis during pregnancy?",
+      "What should a mild carrier watch for in daily life?"
+    ],
+    "severity_badge": "⚠️ Needs long-term hematology management",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Definitive disease gene (Definitive)",
+    "myth": "'Thalassemia is just iron-deficiency anemia — just take iron supplements?'",
+    "truth": "Wrong! Thalassemia is an inherited hemoglobin production disorder. Blindly taking iron can worsen iron overload; it must be managed under hematology guidance.",
+    "recommended_specialty": "Hematology / Pediatrics / Genetics Clinic"
+  },
+  "APC": {
+    "metaphor_title": "🚧 The [Brake Gate] on Intestinal Cell Growth",
+    "metaphor_story": "APC acts like a brake gate on intestinal cell growth, preventing uncontrolled proliferation. When the gate fails (mutation), the intestine grows hundreds or thousands of polyps, which almost inevitably turn into bowel cancer — hence the need for early surgery and follow-up.",
+    "plain_summary": "APC is like a 'brake gate' on intestinal cells. When the gate fails, the intestine grows hundreds or thousands of polyps that almost inevitably become cancer, requiring early endoscopic follow-up and possibly preventive surgery.",
+    "screening_advice": "Start regular colonoscopy monitoring in adolescence; consider preventive colectomy at the right time; watch for extra-intestinal features such as duodenal and thyroid involvement.",
+    "lifestyle_tips": [
+      "Keep regular endoscopic follow-up — never interrupt it just because you have no symptoms",
+      "Eat healthily; see a doctor promptly for blood in stool or abdominal pain",
+      "First-degree relatives should get genetic testing and screening early"
+    ],
+    "key_questions": [
+      "I have FAP — at what age should I start colonoscopy?",
+      "When should I consider preventive colectomy?",
+      "At what age should my children start genetic testing and screening?"
+    ],
+    "severity_badge": "⚠️ Needs early surgical intervention",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Definitive disease gene (Definitive)",
+    "myth": "'Polyps are normal — just cut them out and it's fine?'",
+    "truth": "For FAP patients, polyps keep growing by the hundreds or thousands. Simply removing them is far from enough — you need disciplined endoscopic follow-up and, if necessary, preventive surgery.",
+    "recommended_specialty": "Gastroenterology / Colorectal Surgery / Genetics Clinic"
+  },
+  "RET": {
+    "metaphor_title": "🔘 The [Growth Switch Button] on Thyroid Cells",
+    "metaphor_story": "RET is like a growth switch button on thyroid C-cells. Mutations jam the switch in the 'always on' position, so cells keep proliferating, potentially causing medullary thyroid cancer and possibly other endocrine tumors (multiple endocrine neoplasia type 2).",
+    "plain_summary": "RET is like a 'growth switch button' on thyroid C-cells. Mutations keep the switch on, causing medullary thyroid cancer and possibly pheochromocytoma (MEN2). Preventive thyroidectomy can avoid it entirely.",
+    "screening_advice": "After diagnosis, stratify by genotype; high-risk individuals may have preventive thyroidectomy in childhood, with regular monitoring of serum calcitonin and catecholamines.",
+    "lifestyle_tips": [
+      "Regular endocrine follow-up",
+      "Control blood pressure; see a doctor promptly for palpitations, sweating or headache",
+      "Children should get genetic testing and counseling early"
+    ],
+    "key_questions": [
+      "I carry a RET mutation — at what stage should I have preventive thyroidectomy?",
+      "Which hormone markers should I monitor and how often?",
+      "When should my children be tested?"
+    ],
+    "severity_badge": "⚠️ Preventive thyroidectomy recommended",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Definitive disease gene (Definitive)",
+    "myth": "'Medullary thyroid cancer is rare, so it doesn't concern me?'",
+    "truth": "If there is a family history of MEN2, RET mutation carriers will almost 100% develop medullary thyroid cancer. Preventive thyroidectomy can avoid it entirely — early detection is key.",
+    "recommended_specialty": "Endocrinology / Thyroid Surgery / Genetics Clinic"
+  },
+  "PALB2": {
+    "metaphor_title": "🤝 BRCA2's [Best Partner]",
+    "metaphor_story": "Repairing DNA breaks takes a team. PALB2 is BRCA2's best partner, responsible for delivering BRCA2 to the break site. When the partner fails, the repair team loses efficiency, raising breast and pancreatic cancer risk.",
+    "plain_summary": "PALB2 is BRCA2's best partner, delivering BRCA2 to DNA break sites. A mutation raises breast cancer (lifetime ~35–58%) and pancreatic cancer risk — but it is by no means inevitable.",
+    "screening_advice": "Follow BRCA1/2-carrier breast MRI screening; those with a family history of pancreatic cancer should discuss relevant screening.",
+    "lifestyle_tips": [
+      "Maintain a healthy weight, quit smoking and limit alcohol",
+      "Breastfeed under medical guidance if appropriate",
+      "Those planning children should consult genetic counseling and PGT"
+    ],
+    "key_questions": [
+      "How does my PALB2 mutation change my breast cancer screening plan?",
+      "With a family history of pancreatic cancer, do I need related screening?",
+      "Should my relatives be tested for the same variant?"
+    ],
+    "severity_badge": "⚠️ Needs attention (preventable & treatable)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Strong scientific consensus",
+    "myth": "'Only BRCA1/BRCA2 count as breast cancer genes?'",
+    "truth": "Not only them! PALB2, CHEK2, ATM and others also affect breast cancer risk. Genetic counseling should assess comprehensively, not just one or two genes.",
+    "recommended_specialty": "Breast Surgery / Oncology / Clinical Genetics"
+  },
+  "SMN1": {
+    "metaphor_title": "⚡ The [Power-Line Maintainer] for Motor Neurons",
+    "metaphor_story": "The 'motor neurons' that control muscles are like power lines, and SMN1 makes the protein that maintains these lines. Without it, the lines gradually break down, muscles stop receiving commands and waste away (spinal muscular atrophy). The good news: gene therapy now exists.",
+    "plain_summary": "SMN1 makes the protein that maintains 'motor neurons' (the nerves controlling muscles). Without it, motor neurons die off, muscles weaken and waste — spinal muscular atrophy (SMA). Gene therapy and disease-modifying drugs now exist, and the earlier treatment starts, the better.",
+    "screening_advice": "Couples planning pregnancy can take SMA carrier screening; diagnosed patients should start disease-modifying therapy early, plus respiratory support and rehabilitation.",
+    "lifestyle_tips": [
+      "Early multidisciplinary rehabilitation",
+      "Watch respiratory function and use respiratory support as advised",
+      "Regular neurology follow-up to assess motor function"
+    ],
+    "key_questions": [
+      "My child was diagnosed with SMA — what treatment options are available now?",
+      "Is SMA carrier screening suitable for us as a couple?",
+      "If we have another child, how can prenatal diagnosis or PGT prevent inheritance?"
+    ],
+    "severity_badge": "⚠️ Needs specialist treatment (gene therapy now available)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Definitive disease gene (Definitive)",
+    "myth": "'Is SMA untreatable?'",
+    "truth": "Times have changed! Recent gene therapy and intrathecal drugs can significantly improve the disease course. The earlier the diagnosis and treatment, the better the prognosis.",
+    "recommended_specialty": "Neurology / Pediatrics / Genetics Clinic"
+  },
+  "DMD": {
+    "metaphor_title": "🪢 The [Shock-Absorbing Rope] in Muscle Cells",
+    "metaphor_story": "Every muscle contraction is like a hard tug. DMD codes for dystrophin, a shock-absorbing rope inside muscle cells that absorbs the impact. Without the rope, muscle cells are repeatedly damaged and die, causing Duchenne muscular dystrophy.",
+    "plain_summary": "DMD codes for dystrophin, the 'shock-absorbing rope' of muscle cells. Without it, muscle cells keep getting damaged and dying, causing Duchenne muscular dystrophy — more common in boys (X-linked recessive).",
+    "screening_advice": "Those with a family history should get genetic counseling and carrier screening; diagnosed patients need regular rehabilitation, glucocorticoid therapy and monitoring of heart and lung function.",
+    "lifestyle_tips": [
+      "Regular physical therapy to maintain joint range of motion",
+      "Avoid intense eccentric exercise that damages muscle",
+      "Regular heart and lung function follow-up"
+    ],
+    "key_questions": [
+      "My child's muscle enzymes are markedly elevated — do they need DMD genetic testing?",
+      "What drugs are available to slow the disease?",
+      "Should other family members be tested as carriers?"
+    ],
+    "severity_badge": "⚠️ Needs long-term specialist management",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Definitive disease gene (Definitive)",
+    "myth": "'Boys who walk late and fall often are just slow developers?'",
+    "truth": "If blood creatine kinase is markedly elevated, be alert for Duchenne muscular dystrophy and seek early evaluation — don't simply chalk it up to 'slow development'.",
+    "recommended_specialty": "Neurology / Pediatrics / Rehabilitation"
+  },
+  "PAH": {
+    "metaphor_title": "♻️ The [Phenylalanine Recycling Station]",
+    "metaphor_story": "Phenylalanine in food needs to be broken down by PAH, the 'recycling station'. If the station breaks, phenylalanine piles up and damages the brain (phenylketonuria). As long as it's caught in the newborn period and a low-phenylalanine diet is followed, children can develop completely normally.",
+    "plain_summary": "PAH breaks down phenylalanine in food, like a 'phenylalanine recycling station'. If the station breaks, phenylalanine accumulates and damages the brain (PKU). Newborn screening catches it early; a low-phenylalanine diet allows a normal life.",
+    "screening_advice": "Newborns receive a heel-prick screen; diagnosed patients follow a lifelong low-phenylalanine diet; women planning pregnancy must strictly control blood phenylalanine.",
+    "lifestyle_tips": [
+      "Use special formula and a low-protein diet",
+      "Monitor blood phenylalanine regularly",
+      "Continue dietary control into adulthood"
+    ],
+    "key_questions": [
+      "What special diet plan does my child's PKU need?",
+      "What range should blood phenylalanine be kept in?",
+      "Do they still need dietary control when they grow up?"
+    ],
+    "severity_badge": "✅ Preventable & controllable (low-phenylalanine diet)",
+    "plain_rating": "⭐️⭐️⭐️⭐️⭐️ Definitive disease gene (Definitive)",
+    "myth": "'Will children with PKU definitely have intellectual disability?'",
+    "truth": "No! As long as it's diagnosed in the newborn period and a low-phenylalanine diet is maintained, most children develop completely normal intelligence.",
+    "recommended_specialty": "Pediatrics / Metabolic Genetics"
+  },
+  "CYP2C19": {
+    "metaphor_title": "💊 The [Drug-Processing Machine] in the Liver",
+    "metaphor_story": "Many drugs are taken as 'raw materials' and need the liver's CYP2C19 'machine' to turn them into active ingredients. Everyone's machine is naturally a different speed, so the same drug can have different effects and side effects in different people.",
+    "plain_summary": "CYP2C19 is the 'machine' that activates certain drugs — for example the antiplatelet clopidogrel must be activated by it. Machine speed varies by person, affecting efficacy and side effects.",
+    "screening_advice": "Consider genetic testing before taking clopidogrel; poor metabolizers may switch to ticagrelor etc. under medical guidance.",
+    "lifestyle_tips": [
+      "Take medications as prescribed — never switch or stop on your own",
+      "Watch for bleeding or clotting symptoms during treatment",
+      "Tell your doctor about your medications and test results"
+    ],
+    "key_questions": [
+      "After my stent, I take clopidogrel — should I get a CYP2C19 test?",
+      "If I'm a poor metabolizer, do I need to switch drugs?",
+      "What other common drugs are affected by CYP2C19?"
+    ],
+    "severity_badge": "💡 Drug-response difference (can guide precision dosing)",
+    "plain_rating": "⭐️⭐️⭐️⭐️ Supported by clinical guidelines (CPIC)",
+    "myth": "'The same drug works the same for everyone?'",
+    "truth": "No! Genetic differences mean the same drug's efficacy and side effects vary by person — pharmacogenetic testing is now used to guide precision dosing.",
+    "recommended_specialty": "Cardiology / Clinical Pharmacy"
+  }
+}

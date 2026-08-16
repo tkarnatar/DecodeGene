@@ -3,14 +3,14 @@ import { useLanguage } from '../i18n.jsx'
 import { fetchChecklistText } from '../api.js'
 
 export default function DoctorChecklistModal({ geneSymbol, onClose }) {
-  const { t } = useLanguage()
+  const { lang, t } = useLanguage()
   const [text, setText] = useState('')
   const [copied, setCopied] = useState(false)
 
   useEffect(() => {
-    fetchChecklistText(geneSymbol).then(setText).catch(() => setText(t('cl_failed')))
+    fetchChecklistText(geneSymbol, lang).then(setText).catch(() => setText(t('cl_failed')))
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [geneSymbol])
+  }, [geneSymbol, lang])
 
   async function handleCopy() {
     try {

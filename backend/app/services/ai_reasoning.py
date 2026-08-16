@@ -40,6 +40,30 @@ DISCLAIMER = (
     "请务必前往正规医院遗传咨询科就诊。"
 )
 
+SYSTEM_PROMPT_EN = (
+    "You are a senior clinical genetic counselor and a top genetics educator. "
+    "Your tone should be warm, objective and extremely accessible, avoiding unexplained jargon, "
+    "and firmly avoiding causing genetic anxiety. Only state scientifically grounded content, "
+    "honestly admit uncertainty, and always guide users to consult a licensed physician."
+)
+
+REPORT_JSON_INSTRUCTION_EN = (
+    "Translate the user's pasted genetic report into plain language, and strictly output in "
+    "the following JSON format (only JSON, no extra text), with all fields in English:\n"
+    '{"what_found": "What was actually found?", '
+    '"actual_impact": "What does this mean for me?", '
+    '"next_steps": "What should I do next (see a doctor)?", '
+    '"lifestyle": "How should I eat and exercise?", '
+    '"disclaimer": "Medical disclaimer and care guidance"}'
+)
+
+DISCLAIMER_EN = (
+    "⚠️ Disclaimer: The content above is provided by the open-source community and AI for "
+    "educational purposes only. It is not a substitute for diagnosis or treatment by a licensed "
+    "physician or genetic counselor. For actual medical, medication or testing decisions, "
+    "please visit a hospital genetics clinic."
+)
+
 # 常见基因符号，用于离线降级时的关键词识别
 KNOWN_GENES = [
     "BRCA1", "BRCA2", "TP53", "APOE", "EGFR", "CFTR", "G6PD", "MTHFR",
@@ -59,6 +83,18 @@ GENE_PLAIN: Dict[str, str] = {
     "MTHFR": "MTHFR 是叶酸代谢的「加工流水线工人」，常见低活性版本属于体质差异，注意补充叶酸即可。",
 }
 
+GENE_PLAIN_EN: Dict[str, str] = {
+    "BRCA1": "BRCA1 is like a 'DNA car mechanic' inside cells; its mutation weakens the cell's "
+    "ability to repair DNA, raising the lifetime risk of breast and ovarian cancer (though it is by no means inevitable).",
+    "BRCA2": "BRCA2 is BRCA1's partner, delivering spare parts for DNA repair; its mutation also raises breast and ovarian cancer risk.",
+    "TP53": "TP53 is the cell's 'emergency brake pad'; its mutation weakens the cell's ability to remove abnormal cells, raising the risk of several early-onset tumors.",
+    "APOE": "APOE is the 'trash truck' in the brain; the ε4 form clears waste less efficiently and raises the risk of Alzheimer's disease in old age.",
+    "EGFR": "EGFR is the 'growth gas pedal' on the cell surface; its mutation makes cells grow out of control, but it is also a great precision-drug target.",
+    "CFTR": "CFTR is the 'mucus faucet regulator' on the cell surface; inheriting two mutated copies causes cystic fibrosis, while one copy causes no symptoms.",
+    "G6PD": "G6PD is the 'anti-rust coating' of red blood cells; deficient individuals must avoid fava beans and certain oxidizing drugs.",
+    "MTHFR": "MTHFR is the 'processing line worker' in folate metabolism; common low-activity variants are a constitutional difference — just ensure adequate folate intake.",
+}
+
 ZYGOSITY_PLAIN: Dict[str, str] = {
     "杂合": "「杂合」指两份基因拷贝中只有一份发生变异，另一份正常。",
     "杂合突变": "「杂合突变」指两份拷贝中只有一份变异，另一份正常。",
@@ -68,12 +104,29 @@ ZYGOSITY_PLAIN: Dict[str, str] = {
     "homozygous": "「纯合 (homozygous)」指两份拷贝都发生了变异。",
 }
 
+ZYGOSITY_PLAIN_EN: Dict[str, str] = {
+    "杂合": "'Heterozygous' means only one of your two gene copies has the variant; the other is normal.",
+    "杂合突变": "'Heterozygous' means only one of your two gene copies has the variant; the other is normal.",
+    "纯合": "'Homozygous' means both of your gene copies have the variant.",
+    "纯合突变": "'Homozygous' means both of your gene copies have the variant.",
+    "heterozygous": "'Heterozygous' means only one of your two gene copies has the variant.",
+    "homozygous": "'Homozygous' means both of your gene copies have the variant.",
+}
+
 VARIANT_TERM_PLAIN: Dict[str, str] = {
     "pathogenic": "「致病性变异 (Pathogenic)」指该变异已被医学界证实与疾病风险升高明确相关。",
     "likely pathogenic": "「可能致病性变异 (Likely pathogenic)」指该变异与疾病风险高度相关。",
     "benign": "「良性变异 (Benign)」指该变异通常不会致病，无需担心。",
     "vus": "「意义未明变异 (VUS)」指该变异目前医学界尚无定论，暂时无需恐慌，持续研究中。",
     "uncertain": "「意义未明变异」指该变异目前尚无定论，暂时无需恐慌，持续研究中。",
+}
+
+VARIANT_TERM_PLAIN_EN: Dict[str, str] = {
+    "pathogenic": "'Pathogenic' means this variant has been clearly linked to an increased disease risk.",
+    "likely pathogenic": "'Likely pathogenic' means this variant is highly associated with increased risk.",
+    "benign": "'Benign' means this variant usually does not cause disease — no need to worry.",
+    "vus": "'Variant of uncertain significance (VUS)' means the medical community has no conclusion yet; no need to panic.",
+    "uncertain": "'Variant of uncertain significance' — no conclusion yet; no need to panic.",
 }
 
 
@@ -112,25 +165,35 @@ class DeepSeekPublicAgent:
 
     # ---------------------------------------------------------- explain report
     async def explain_report(self, query: GeneticReportQuery) -> ReportExplanation:
+        lang = getattr(query, "lang", "zh")
         raw = (query.raw_text or "").strip()
+        disclaimer = DISCLAIMER if lang == "zh" else DISCLAIMER_EN
         if not raw:
             return ReportExplanation(
-                what_found="请先在上方粘贴您的基因检测报告内容，我们再为您逐条翻译。",
+                what_found=(
+                    "请先在上方粘贴您的基因检测报告内容，我们再为您逐条翻译。"
+                    if lang == "zh"
+                    else "Please paste your genetic report above first, and we will translate it for you."
+                ),
                 actual_impact="",
                 next_steps="",
                 lifestyle="",
-                disclaimer=DISCLAIMER,
+                disclaimer=disclaimer,
             )
 
         if not self.available:
             return self._fallback_explain(raw, query)
 
+        system_prompt = SYSTEM_PROMPT if lang == "zh" else SYSTEM_PROMPT_EN
+        instruction = REPORT_JSON_INSTRUCTION if lang == "zh" else REPORT_JSON_INSTRUCTION_EN
+        report_prefix = (
+            f"{instruction}\n\n以下是用户的基因检测报告内容：\n{raw}"
+            if lang == "zh"
+            else f"{instruction}\n\nHere is the user's genetic report:\n{raw}"
+        )
         messages = [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {
-                "role": "user",
-                "content": f"{REPORT_JSON_INSTRUCTION}\n\n以下是用户的基因检测报告内容：\n{raw}",
-            },
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": report_prefix},
         ]
         try:
             content = await self._chat_json(messages, self.config.DEEPSEEK_MODEL)
@@ -140,7 +203,7 @@ class DeepSeekPublicAgent:
                 actual_impact=parsed.get("actual_impact", ""),
                 next_steps=parsed.get("next_steps", ""),
                 lifestyle=parsed.get("lifestyle", ""),
-                disclaimer=parsed.get("disclaimer", DISCLAIMER),
+                disclaimer=parsed.get("disclaimer", disclaimer),
                 model=self.config.DEEPSEEK_MODEL,
             )
         except Exception:
@@ -148,11 +211,62 @@ class DeepSeekPublicAgent:
 
     def _fallback_explain(self, raw: str, query: GeneticReportQuery) -> ReportExplanation:
         """无 API Key 时的本地模板解释器，保证功能可用。"""
+        lang = getattr(query, "lang", "zh")
         text = raw.lower()
         found_genes = [g for g in KNOWN_GENES if g.lower() in text]
         detected_gene = (query.detected_gene or "").strip().upper()
         if detected_gene and detected_gene not in found_genes:
             found_genes.insert(0, detected_gene)
+
+        if lang == "en":
+            zygosity_line = ""
+            zygosity = (query.zygosity or "").strip() or raw
+            for key, desc in ZYGOSITY_PLAIN_EN.items():
+                if key.lower() in zygosity.lower():
+                    zygosity_line = desc
+                    break
+
+            variant_line = ""
+            for key, desc in VARIANT_TERM_PLAIN_EN.items():
+                if key in text:
+                    variant_line = desc
+                    break
+
+            gene_desc = ", ".join(
+                f"{g} ({GENE_PLAIN_EN.get(g, 'No detailed explanation available yet')})"
+                for g in found_genes
+            ) or "Could not automatically identify the gene; please check the report content."
+
+            what_found = (
+                f"① What was actually found? {gene_desc}"
+                + (f" {zygosity_line}" if zygosity_line else "")
+                + (f" {variant_line}" if variant_line else "")
+            )
+            actual_impact = (
+                "② What does this mean for me? First, stay calm: carrying a mutation does NOT "
+                "mean you are already ill. It represents an 'increased risk (susceptibility)', "
+                "and in most cases it can be effectively prevented and managed through early "
+                "screening, lifestyle changes and standard treatment."
+            )
+            next_steps = (
+                "③ What should I do next? Bring your report to a 'clinical genetics clinic' or "
+                "the relevant specialty at a hospital, where a doctor will assess and design an "
+                "individualized screening plan (e.g. breast MRI, colonoscopy, tumor markers), and "
+                "decide whether first-degree relatives should be tested."
+            )
+            lifestyle = (
+                "④ How should I eat and exercise? Maintain a healthy weight, eat a balanced diet "
+                "(more dark vegetables and whole grains), quit smoking and limit alcohol, exercise "
+                "regularly, get enough sleep, and have regular check-ups as advised by your doctor."
+            )
+            return ReportExplanation(
+                what_found=what_found,
+                actual_impact=actual_impact,
+                next_steps=next_steps,
+                lifestyle=lifestyle,
+                disclaimer=DISCLAIMER_EN,
+                offline_fallback=True,
+            )
 
         zygosity_line = ""
         zygosity = (query.zygosity or "").strip() or raw
@@ -200,16 +314,17 @@ class DeepSeekPublicAgent:
         )
 
     # ------------------------------------------------------------------- chat
-    async def chat_qa_stream(self, message: str, history: Optional[List[Dict[str, str]]] = None) -> AsyncIterator[str]:
+    async def chat_qa_stream(self, message: str, history: Optional[List[Dict[str, str]]] = None, lang: str = "zh") -> AsyncIterator[str]:
         """SSE 流式问答。生成 data: {...} 事件块，以 data: [DONE] 结束。"""
         if not self.available:
-            answer = self._fallback_chat(message)
+            answer = self._fallback_chat(message, lang)
             for piece in answer:
                 yield self._sse({"content": piece})
             yield self._sse({"done": True})
             return
 
-        messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+        system_prompt = SYSTEM_PROMPT if lang == "zh" else SYSTEM_PROMPT_EN
+        messages = [{"role": "system", "content": system_prompt}]
         if history:
             messages.extend(history)
         messages.append({"role": "user", "content": message})
@@ -240,7 +355,7 @@ class DeepSeekPublicAgent:
                         if delta:
                             yield self._sse({"content": delta})
         except httpx.HTTPError:
-            for piece in self._fallback_chat(message):
+            for piece in self._fallback_chat(message, lang):
                 yield self._sse({"content": piece})
         yield self._sse({"done": True})
 
@@ -248,8 +363,21 @@ class DeepSeekPublicAgent:
     def _sse(payload: Dict[str, Any]) -> str:
         return f"data: {json.dumps(payload, ensure_ascii=False)}\n\n"
 
-    def _fallback_chat(self, message: str) -> List[str]:
+    def _fallback_chat(self, message: str, lang: str = "zh") -> List[str]:
         text = message.lower()
+        if lang == "en":
+            for gene in KNOWN_GENES:
+                if gene.lower() in text:
+                    return [
+                        f"About {gene}: {GENE_PLAIN_EN.get(gene, '')}",
+                        "I recommend bringing your report to a hospital clinical genetics clinic for individualized advice.",
+                        DISCLAIMER_EN,
+                    ]
+            return [
+                "I currently don't have the DeepSeek API connected, so I can only provide basic local answers.",
+                "I recommend consulting a genetic counselor at a hospital.",
+                DISCLAIMER_EN,
+            ]
         for gene in KNOWN_GENES:
             if gene.lower() in text:
                 return [
