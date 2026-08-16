@@ -71,11 +71,11 @@ def _render_association(assoc: GeneDiseaseAssociation, view: str = "simple") -> 
             "chinese_name": assoc.disease.chinese_name,
             "categories": assoc.disease.categories,
             "severity_badge": assoc.disease.severity_badge,
-            "severity_badge_en": assoc.disease.severity_badge_en,
+            "severity_badge_en": getattr(assoc.disease, "severity_badge_en", ""),
         },
         "evidence": {
             "plain_rating": assoc.evidence.plain_rating,
-            "plain_rating_en": assoc.evidence.plain_rating_en,
+            "plain_rating_en": getattr(assoc.evidence, "plain_rating_en", ""),
             "star_rating": assoc.evidence.star_rating,
             "clinvar_summary_chinese": assoc.evidence.clinvar_summary_chinese,
         },
