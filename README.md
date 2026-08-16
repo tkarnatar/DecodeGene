@@ -121,11 +121,15 @@ DecodeGene/
 
 ## 📊 数据与扩展 · Data & How to Expand
 
-DecodeGene 内置一个**精心筛选的示例知识库**（当前 **10 个基因**，每个含通俗比喻、科研证据、筛查建议、就医清单与辟谣卡）。This is a **curated sample**, not exhaustive.
+DecodeGene 内置一个**精心筛选的示例知识库**（当前 **20 个基因**，每个含通俗比喻、科研证据、筛查建议、就医清单与辟谣卡）。This is a **curated sample**, not exhaustive.
 
 ### 目前收录的基因 · Currently included genes
 
-`BRCA1` `BRCA2` `TP53` `APOE` `EGFR` `CFTR` `G6PD` `MLH1` `MTHFR` `HFE`
+**遗传性肿瘤综合征 Hereditary cancer syndromes**: `BRCA1` `BRCA2` `TP53` `PALB2` `MLH1` `APC` `RET` `EGFR`
+
+**神经/代谢/血液等单基因病 Neuro / metabolic / blood disorders**: `APOE` `CFTR` `G6PD` `MTHFR` `HFE` `HBB` `SMN1` `DMD` `PAH`
+
+**心血管与用药个体化 Cardiovascular & pharmacogenomics**: `LDLR` `ALDH2` `CYP2C19`
 
 ### 如何扩充 · How to expand
 
