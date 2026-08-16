@@ -374,40 +374,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_none of which curated to show dosage sensitivity",
-  "gene": {
-   "symbol": "none of which curated to show dosage sensitivity",
-   "name": "none of which curated to show dosage sensitivity",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autosomal recessive nonsyndromic hearing loss 1B",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🟢 明确致病基因"
-  },
-  "evidence": {
-   "overall_score": 0.9,
-   "plain_rating": "⭐️⭐️⭐️⭐️⭐️ ClinVar 明确致病证据（≥100 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 3197",
-   "star_rating": 5,
-   "clinvar_pathogenic_count": 3197,
-   "clinvar_summary_chinese": "ClinVar 收录 3197 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_TSC2",
   "gene": {
    "symbol": "TSC2",
@@ -42126,40 +42092,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_covers 10 genes",
-  "gene": {
-   "symbol": "covers 10 genes",
-   "name": "covers 10 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Crigler-Najjar syndrome, type II",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🟢 明确致病基因"
-  },
-  "evidence": {
-   "overall_score": 0.9,
-   "plain_rating": "⭐️⭐️⭐️⭐️⭐️ ClinVar 明确致病证据（≥100 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 115",
-   "star_rating": 5,
-   "clinvar_pathogenic_count": 115,
-   "clinvar_summary_chinese": "ClinVar 收录 115 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_SLC34A1",
   "gene": {
    "symbol": "SLC34A1",
@@ -46049,40 +45981,6 @@
   "disease": {
    "id": "",
    "name": "Pontocerebellar hypoplasia type 1B",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🟢 明确致病基因"
-  },
-  "evidence": {
-   "overall_score": 0.9,
-   "plain_rating": "⭐️⭐️⭐️⭐️⭐️ ClinVar 明确致病证据（≥100 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 102",
-   "star_rating": 5,
-   "clinvar_pathogenic_count": 102,
-   "clinvar_summary_chinese": "ClinVar 收录 102 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 190 genes: CRKL:TBX1",
-  "gene": {
-   "symbol": "subset of 190 genes: CRKL:TBX1",
-   "name": "subset of 190 genes: CRKL:TBX1",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🟢 明确致病基因"
@@ -50265,40 +50163,6 @@
   "disease": {
    "id": "",
    "name": "Amyotrophic lateral sclerosis type 1",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 90",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 90,
-   "clinvar_summary_chinese": "ClinVar 收录 90 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 12 genes",
-  "gene": {
-   "symbol": "covers 12 genes",
-   "name": "covers 12 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Radial aplasia-thrombocytopenia syndrome",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -55080,40 +54944,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_covers 15 genes",
-  "gene": {
-   "symbol": "covers 15 genes",
-   "name": "covers 15 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Abnormal esophagus morphology",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 78",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 78,
-   "clinvar_summary_chinese": "ClinVar 收录 78 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_TUBB",
   "gene": {
    "symbol": "TUBB",
@@ -58004,40 +57834,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_covers 13 genes",
-  "gene": {
-   "symbol": "covers 13 genes",
-   "name": "covers 13 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Premature ovarian failure",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 71",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 71,
-   "clinvar_summary_chinese": "ClinVar 收录 71 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_NARS2",
   "gene": {
    "symbol": "NARS2",
@@ -59513,40 +59309,6 @@
   "disease": {
    "id": "",
    "name": "Combined oxidative phosphorylation defect type 15",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 68",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 68,
-   "clinvar_summary_chinese": "ClinVar 收录 68 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 11 genes",
-  "gene": {
-   "symbol": "covers 11 genes",
-   "name": "covers 11 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Mitochondrial disease",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -61506,40 +61268,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_covers 17 genes",
-  "gene": {
-   "symbol": "covers 17 genes",
-   "name": "covers 17 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autosomal recessive nonsyndromic hearing loss 1B",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 64",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 64,
-   "clinvar_summary_chinese": "ClinVar 收录 64 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_KCNJ10",
   "gene": {
    "symbol": "KCNJ10",
@@ -62437,40 +62165,6 @@
   "disease": {
    "id": "",
    "name": "Mitochondrial complex III deficiency nuclear type 2",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 63",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 63,
-   "clinvar_summary_chinese": "ClinVar 收录 63 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 16 genes",
-  "gene": {
-   "symbol": "covers 16 genes",
-   "name": "covers 16 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Congenital aniridia",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -63457,40 +63151,6 @@
   "disease": {
    "id": "",
    "name": "Lissencephaly 4",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 61",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 61,
-   "clinvar_summary_chinese": "ClinVar 收录 61 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 37 genes",
-  "gene": {
-   "symbol": "covers 37 genes",
-   "name": "covers 37 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Schizophrenia",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -66619,40 +66279,6 @@
   "disease": {
    "id": "",
    "name": "Microcephaly-capillary malformation syndrome",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 56",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 56,
-   "clinvar_summary_chinese": "ClinVar 收录 56 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 25 genes",
-  "gene": {
-   "symbol": "covers 25 genes",
-   "name": "covers 25 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Schizophrenia",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -71264,40 +70890,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_subset of 27 genes: ELN",
-  "gene": {
-   "symbol": "subset of 27 genes: ELN",
-   "name": "subset of 27 genes: ELN",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autism spectrum disorder",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 49",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 49,
-   "clinvar_summary_chinese": "ClinVar 收录 49 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_TECRL",
   "gene": {
    "symbol": "TECRL",
@@ -72658,40 +72250,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_covers 20 genes",
-  "gene": {
-   "symbol": "covers 20 genes",
-   "name": "covers 20 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Mitochondrial disease",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 47",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 47,
-   "clinvar_summary_chinese": "ClinVar 收录 47 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_KPTN",
   "gene": {
    "symbol": "KPTN",
@@ -73032,40 +72590,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_covers 26 genes",
-  "gene": {
-   "symbol": "covers 26 genes",
-   "name": "covers 26 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Leigh syndrome",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 46",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 46,
-   "clinvar_summary_chinese": "ClinVar 收录 46 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_UNG",
   "gene": {
    "symbol": "UNG",
@@ -73372,40 +72896,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_subset of 102 genes: PRRT2",
-  "gene": {
-   "symbol": "subset of 102 genes: PRRT2",
-   "name": "subset of 102 genes: PRRT2",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Schizophrenia",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 46",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 46,
-   "clinvar_summary_chinese": "ClinVar 收录 46 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_RNF213",
   "gene": {
    "symbol": "RNF213",
@@ -73589,40 +73079,6 @@
   "disease": {
    "id": "",
    "name": "Filippi syndrome",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 46",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 46,
-   "clinvar_summary_chinese": "ClinVar 收录 46 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 24 genes: MAGEL2:SNURF:UBE3A",
-  "gene": {
-   "symbol": "subset of 24 genes: MAGEL2:SNURF:UBE3A",
-   "name": "subset of 24 genes: MAGEL2:SNURF:UBE3A",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autism spectrum disorder",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -74201,74 +73657,6 @@
   "disease": {
    "id": "",
    "name": "Transient infantile hypertriglyceridemia and hepatosteatosis",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 45",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 45,
-   "clinvar_summary_chinese": "ClinVar 收录 45 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 29 genes",
-  "gene": {
-   "symbol": "covers 29 genes",
-   "name": "covers 29 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Loeys-Dietz syndrome 4",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 45",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 45,
-   "clinvar_summary_chinese": "ClinVar 收录 45 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 18 genes",
-  "gene": {
-   "symbol": "covers 18 genes",
-   "name": "covers 18 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autism;Schizophrenia",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -75004,40 +74392,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_covers 34 genes",
-  "gene": {
-   "symbol": "covers 34 genes",
-   "name": "covers 34 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Cognitive impairment;Short stature",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 44",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 44,
-   "clinvar_summary_chinese": "ClinVar 收录 44 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_KNL1",
   "gene": {
    "symbol": "KNL1",
@@ -75187,40 +74541,6 @@
   "disease": {
    "id": "",
    "name": "Perrault syndrome 3",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 44",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 44,
-   "clinvar_summary_chinese": "ClinVar 收录 44 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 19 genes",
-  "gene": {
-   "symbol": "covers 19 genes",
-   "name": "covers 19 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Macrocytic dyserythropoietic anemia;Primary dilated cardiomyopathy",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -75799,40 +75119,6 @@
   "disease": {
    "id": "",
    "name": "Autosomal recessive congenital ichthyosis 9",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 43",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 43,
-   "clinvar_summary_chinese": "ClinVar 收录 43 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 14 genes",
-  "gene": {
-   "symbol": "covers 14 genes",
-   "name": "covers 14 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Mitochondrial disease",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -77282,40 +76568,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_covers 22 genes",
-  "gene": {
-   "symbol": "covers 22 genes",
-   "name": "covers 22 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "MELAS syndrome",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 41",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 41,
-   "clinvar_summary_chinese": "ClinVar 收录 41 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_HSD17B10",
   "gene": {
    "symbol": "HSD17B10",
@@ -78485,40 +77737,6 @@
   "disease": {
    "id": "",
    "name": "Ataxia-pancytopenia syndrome",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 40",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 40,
-   "clinvar_summary_chinese": "ClinVar 收录 40 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 27 genes: PRRT2",
-  "gene": {
-   "symbol": "subset of 27 genes: PRRT2",
-   "name": "subset of 27 genes: PRRT2",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Spondylocostal dysostosis 5",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -80104,40 +79322,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_covers 21 genes",
-  "gene": {
-   "symbol": "covers 21 genes",
-   "name": "covers 21 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autism",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 38",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 38,
-   "clinvar_summary_chinese": "ClinVar 收录 38 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_RBFOX1",
   "gene": {
    "symbol": "RBFOX1",
@@ -81056,142 +80240,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_subset of 145 genes: MAGEL2:SNURF:UBE3A",
-  "gene": {
-   "symbol": "subset of 145 genes: MAGEL2:SNURF:UBE3A",
-   "name": "subset of 145 genes: MAGEL2:SNURF:UBE3A",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Angelman syndrome",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 37",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 37,
-   "clinvar_summary_chinese": "ClinVar 收录 37 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 143 genes: MAGEL2:SNURF:UBE3A",
-  "gene": {
-   "symbol": "subset of 143 genes: MAGEL2:SNURF:UBE3A",
-   "name": "subset of 143 genes: MAGEL2:SNURF:UBE3A",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 37",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 37,
-   "clinvar_summary_chinese": "ClinVar 收录 37 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 24 genes",
-  "gene": {
-   "symbol": "covers 24 genes",
-   "name": "covers 24 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autoimmune lymphoproliferative syndrome type 1",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 37",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 37,
-   "clinvar_summary_chinese": "ClinVar 收录 37 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 30 genes",
-  "gene": {
-   "symbol": "covers 30 genes",
-   "name": "covers 30 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Abnormal esophagus morphology",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 37",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 37,
-   "clinvar_summary_chinese": "ClinVar 收录 37 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_DNA2",
   "gene": {
    "symbol": "DNA2",
@@ -81409,40 +80457,6 @@
   "disease": {
    "id": "",
    "name": "Inborn genetic diseases",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 37",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 37,
-   "clinvar_summary_chinese": "ClinVar 收录 37 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 47 genes: CRKL:TBX1",
-  "gene": {
-   "symbol": "subset of 47 genes: CRKL:TBX1",
-   "name": "subset of 47 genes: CRKL:TBX1",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "14 conditions",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -82191,40 +81205,6 @@
   "disease": {
    "id": "",
    "name": "Autosomal systemic lupus erythematosus type 16",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 36",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 36,
-   "clinvar_summary_chinese": "ClinVar 收录 36 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 173 genes: MAGEL2:SNURF:UBE3A",
-  "gene": {
-   "symbol": "subset of 173 genes: MAGEL2:SNURF:UBE3A",
-   "name": "subset of 173 genes: MAGEL2:SNURF:UBE3A",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -83075,74 +82055,6 @@
   "disease": {
    "id": "",
    "name": "Immunodeficiency 19",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 35",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 35,
-   "clinvar_summary_chinese": "ClinVar 收录 35 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 132 genes: ELN",
-  "gene": {
-   "symbol": "subset of 132 genes: ELN",
-   "name": "subset of 132 genes: ELN",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Williams syndrome",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 35",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 35,
-   "clinvar_summary_chinese": "ClinVar 收录 35 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 38 genes",
-  "gene": {
-   "symbol": "covers 38 genes",
-   "name": "covers 38 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autism",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -85374,40 +84286,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_subset of 142 genes: MAGEL2:SNURF:UBE3A",
-  "gene": {
-   "symbol": "subset of 142 genes: MAGEL2:SNURF:UBE3A",
-   "name": "subset of 142 genes: MAGEL2:SNURF:UBE3A",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 33",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 33,
-   "clinvar_summary_chinese": "ClinVar 收录 33 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_VPS45",
   "gene": {
    "symbol": "VPS45",
@@ -85489,40 +84367,6 @@
   "disease": {
    "id": "",
    "name": "Spondylometaphyseal dysplasia, Sedaghatian type",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 33",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 33,
-   "clinvar_summary_chinese": "ClinVar 收录 33 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 39 genes",
-  "gene": {
-   "symbol": "covers 39 genes",
-   "name": "covers 39 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Neurodevelopmental disorder",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -86305,40 +85149,6 @@
   "disease": {
    "id": "",
    "name": "Urofacial syndrome 2",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 32",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 32,
-   "clinvar_summary_chinese": "ClinVar 收录 32 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 36 genes",
-  "gene": {
-   "symbol": "covers 36 genes",
-   "name": "covers 36 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Chromosome 3q13.31 deletion syndrome",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -87699,74 +86509,6 @@
   "disease": {
    "id": "",
    "name": "Hereditary spastic paraplegia 12",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 31",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 31,
-   "clinvar_summary_chinese": "ClinVar 收录 31 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 11 genes: KANSL1",
-  "gene": {
-   "symbol": "subset of 11 genes: KANSL1",
-   "name": "subset of 11 genes: KANSL1",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 31",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 31,
-   "clinvar_summary_chinese": "ClinVar 收录 31 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 35 genes",
-  "gene": {
-   "symbol": "covers 35 genes",
-   "name": "covers 35 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "10q11.22q11.23 microdeletion including CHAT and SLC18A3",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -90236,40 +88978,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_covers 28 genes",
-  "gene": {
-   "symbol": "covers 28 genes",
-   "name": "covers 28 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Schizophrenia",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 29",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 29,
-   "clinvar_summary_chinese": "ClinVar 收录 29 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_GDF2",
   "gene": {
    "symbol": "GDF2",
@@ -90589,40 +89297,6 @@
   "disease": {
    "id": "",
    "name": "Chromosome 16p12.1 deletion syndrome, 520kb",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 29",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 29,
-   "clinvar_summary_chinese": "ClinVar 收录 29 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 26 genes: PRRT2",
-  "gene": {
-   "symbol": "subset of 26 genes: PRRT2",
-   "name": "subset of 26 genes: PRRT2",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Obesity;Delayed speech and language development;Narrow mouth",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -91562,74 +90236,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_subset of 191 genes: CRKL:TBX1",
-  "gene": {
-   "symbol": "subset of 191 genes: CRKL:TBX1",
-   "name": "subset of 191 genes: CRKL:TBX1",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 28",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 28,
-   "clinvar_summary_chinese": "ClinVar 收录 28 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 194 genes: CRKL:TBX1",
-  "gene": {
-   "symbol": "subset of 194 genes: CRKL:TBX1",
-   "name": "subset of 194 genes: CRKL:TBX1",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 28",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 28,
-   "clinvar_summary_chinese": "ClinVar 收录 28 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_LOC110806306",
   "gene": {
    "symbol": "LOC110806306",
@@ -91711,40 +90317,6 @@
   "disease": {
    "id": "",
    "name": "Feeding difficulties",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 28",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 28,
-   "clinvar_summary_chinese": "ClinVar 收录 28 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 2645 genes: ABCD1:ACSL4:AFF2:ALG13:ANOS1:AP1S2:AR:ARHGEF9:ARSL:ARX:ATP7A:ATRX:AVPR2:BCAP31:BCOR:BRWD3:BTK:CASK:CCNQ:CD40LG:CDKL5:CHM:CHRDL1:CLCN4:CLCN5:CNKSR2:COL4A5:CUL4B:CYBB:DCX:DDX3X:DKC1:DLG3:DMD:EBP:EDA:EFNB1:F8:F9:FANCB:FGD1:FLNA:FMR1:FRMD7:FTSJ1:GDI1:GK:GLA:GPC3:GRIA3:HCCS:HDAC8:HPRT1:IDS:IKBKG:IL1RAPL1:IQSEC2:KDM5C:KDM6A:L1CAM:LAMP2:MAGT1:MAOA:MECP2:MID1:MSL3:MTM1:NAA10:NDP:NEXMIF:NHS:NLGN4X:NONO:NR0B1:NSDHL:NYX:OCRL:OFD1:OPHN1:OTC:PAK3:PCDH19:PDHA1:PGK1:PHEX:PHF6:PHF8:PIGA:PLP1:PORCN:POU3F4:PQBP1:PRPS1:PTCHD1:RAB39B:RP2:RPS6KA3:RS1:SH2D1A:SHOX:SLC16A2:SLC35A2:SLC6A8:SLC9A6:SMC1A:SMS:SOX3:STAG2:STS:SYN1:SYP:TBX22:TIMM8A:TMLHE:TRAPPC2:TSPAN7:UBE2A:UPF3B:USP9X:WAS:WDR45:XIAP:XIST:ZC4H2:ZDHHC9:ZIC3:ZNF41:ZNF711",
-  "gene": {
-   "symbol": "subset of 2645 genes: ABCD1:ACSL4:AFF2:ALG13:ANOS1:AP1S2:AR:ARHGEF9:ARSL:ARX:ATP7A:ATRX:AVPR2:BCAP31:BCOR:BRWD3:BTK:CASK:CCNQ:CD40LG:CDKL5:CHM:CHRDL1:CLCN4:CLCN5:CNKSR2:COL4A5:CUL4B:CYBB:DCX:DDX3X:DKC1:DLG3:DMD:EBP:EDA:EFNB1:F8:F9:FANCB:FGD1:FLNA:FMR1:FRMD7:FTSJ1:GDI1:GK:GLA:GPC3:GRIA3:HCCS:HDAC8:HPRT1:IDS:IKBKG:IL1RAPL1:IQSEC2:KDM5C:KDM6A:L1CAM:LAMP2:MAGT1:MAOA:MECP2:MID1:MSL3:MTM1:NAA10:NDP:NEXMIF:NHS:NLGN4X:NONO:NR0B1:NSDHL:NYX:OCRL:OFD1:OPHN1:OTC:PAK3:PCDH19:PDHA1:PGK1:PHEX:PHF6:PHF8:PIGA:PLP1:PORCN:POU3F4:PQBP1:PRPS1:PTCHD1:RAB39B:RP2:RPS6KA3:RS1:SH2D1A:SHOX:SLC16A2:SLC35A2:SLC6A8:SLC9A6:SMC1A:SMS:SOX3:STAG2:STS:SYN1:SYP:TBX22:TIMM8A:TMLHE:TRAPPC2:TSPAN7:UBE2A:UPF3B:USP9X:WAS:WDR45:XIAP:XIST:ZC4H2:ZDHHC9:ZIC3:ZNF41:ZNF711",
-   "name": "subset of 2645 genes: ABCD1:ACSL4:AFF2:ALG13:ANOS1:AP1S2:AR:ARHGEF9:ARSL:ARX:ATP7A:ATRX:AVPR2:BCAP31:BCOR:BRWD3:BTK:CASK:CCNQ:CD40LG:CDKL5:CHM:CHRDL1:CLCN4:CLCN5:CNKSR2:COL4A5:CUL4B:CYBB:DCX:DDX3X:DKC1:DLG3:DMD:EBP:EDA:EFNB1:F8:F9:FANCB:FGD1:FLNA:FMR1:FRMD7:FTSJ1:GDI1:GK:GLA:GPC3:GRIA3:HCCS:HDAC8:HPRT1:IDS:IKBKG:IL1RAPL1:IQSEC2:KDM5C:KDM6A:L1CAM:LAMP2:MAGT1:MAOA:MECP2:MID1:MSL3:MTM1:NAA10:NDP:NEXMIF:NHS:NLGN4X:NONO:NR0B1:NSDHL:NYX:OCRL:OFD1:OPHN1:OTC:PAK3:PCDH19:PDHA1:PGK1:PHEX:PHF6:PHF8:PIGA:PLP1:PORCN:POU3F4:PQBP1:PRPS1:PTCHD1:RAB39B:RP2:RPS6KA3:RS1:SH2D1A:SHOX:SLC16A2:SLC35A2:SLC6A8:SLC9A6:SMC1A:SMS:SOX3:STAG2:STS:SYN1:SYP:TBX22:TIMM8A:TMLHE:TRAPPC2:TSPAN7:UBE2A:UPF3B:USP9X:WAS:WDR45:XIAP:XIST:ZC4H2:ZDHHC9:ZIC3:ZNF41:ZNF711",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -91881,40 +90453,6 @@
   "disease": {
    "id": "",
    "name": "Bardet-Biedl syndrome 19",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 28",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 28,
-   "clinvar_summary_chinese": "ClinVar 收录 28 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 15 genes: HNF1B",
-  "gene": {
-   "symbol": "subset of 15 genes: HNF1B",
-   "name": "subset of 15 genes: HNF1B",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autism spectrum disorder",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -92990,40 +91528,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_subset of 114 genes: PRRT2",
-  "gene": {
-   "symbol": "subset of 114 genes: PRRT2",
-   "name": "subset of 114 genes: PRRT2",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 27",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 27,
-   "clinvar_summary_chinese": "ClinVar 收录 27 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_PRCD",
   "gene": {
    "symbol": "PRCD",
@@ -93071,74 +91575,6 @@
   "disease": {
    "id": "",
    "name": "Mitochondrial DNA depletion syndrome 11",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 27",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 27,
-   "clinvar_summary_chinese": "ClinVar 收录 27 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 32 genes",
-  "gene": {
-   "symbol": "covers 32 genes",
-   "name": "covers 32 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autism",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 27",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 27,
-   "clinvar_summary_chinese": "ClinVar 收录 27 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 27 genes",
-  "gene": {
-   "symbol": "covers 27 genes",
-   "name": "covers 27 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Isolated Pierre-Robin syndrome;Mild intellectual disability;Bilateral conductive hearing impairment;Abnormal esophagus physiology",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -93343,40 +91779,6 @@
   "disease": {
    "id": "",
    "name": "Silver-Russell syndrome 1",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 27",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 27,
-   "clinvar_summary_chinese": "ClinVar 收录 27 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 30 genes: PRRT2",
-  "gene": {
-   "symbol": "subset of 30 genes: PRRT2",
-   "name": "subset of 30 genes: PRRT2",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Proximal 16p11.2 microdeletion syndrome",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -94452,40 +92854,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_subset of 146 genes: GJA5",
-  "gene": {
-   "symbol": "subset of 146 genes: GJA5",
-   "name": "subset of 146 genes: GJA5",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 26",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 26,
-   "clinvar_summary_chinese": "ClinVar 收录 26 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_RAB33B",
   "gene": {
    "symbol": "RAB33B",
@@ -94499,74 +92867,6 @@
   "disease": {
    "id": "",
    "name": "Smith-McCort dysplasia 2",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 26",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 26,
-   "clinvar_summary_chinese": "ClinVar 收录 26 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 45 genes",
-  "gene": {
-   "symbol": "covers 45 genes",
-   "name": "covers 45 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Schizophrenia",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 26",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 26,
-   "clinvar_summary_chinese": "ClinVar 收录 26 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 56 genes",
-  "gene": {
-   "symbol": "covers 56 genes",
-   "name": "covers 56 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Schizophrenia",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -96390,176 +94690,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_covers 47 genes",
-  "gene": {
-   "symbol": "covers 47 genes",
-   "name": "covers 47 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "22q13.3 interstitial deletion",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 25",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 25,
-   "clinvar_summary_chinese": "ClinVar 收录 25 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 55 genes",
-  "gene": {
-   "symbol": "covers 55 genes",
-   "name": "covers 55 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Schizophrenia",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 25",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 25,
-   "clinvar_summary_chinese": "ClinVar 收录 25 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 42 genes",
-  "gene": {
-   "symbol": "covers 42 genes",
-   "name": "covers 42 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Nemaline myopathy 6",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 25",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 25,
-   "clinvar_summary_chinese": "ClinVar 收录 25 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 31 genes",
-  "gene": {
-   "symbol": "covers 31 genes",
-   "name": "covers 31 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Schizophrenia",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 25",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 25,
-   "clinvar_summary_chinese": "ClinVar 收录 25 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 23 genes",
-  "gene": {
-   "symbol": "covers 23 genes",
-   "name": "covers 23 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autism;Schizophrenia",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 25",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 25,
-   "clinvar_summary_chinese": "ClinVar 收录 25 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_LOC129388861",
   "gene": {
    "symbol": "LOC129388861",
@@ -96743,40 +94873,6 @@
   "disease": {
    "id": "",
    "name": "Moderate intellectual disability;Macular dystrophy",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 25",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 25,
-   "clinvar_summary_chinese": "ClinVar 收录 25 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_subset of 67 genes: TGIF1",
-  "gene": {
-   "symbol": "subset of 67 genes: TGIF1",
-   "name": "subset of 67 genes: TGIF1",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Deletion of short arm of chromosome 18",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -97491,40 +95587,6 @@
   "disease": {
    "id": "",
    "name": "3M syndrome 3",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 24",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 24,
-   "clinvar_summary_chinese": "ClinVar 收录 24 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
-  "association_id": "BULK_covers 48 genes",
-  "gene": {
-   "symbol": "covers 48 genes",
-   "name": "covers 48 genes",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Male infertility",
    "chinese_name": "",
    "categories": [],
    "severity_badge": "🔵 强证据基因"
@@ -99722,40 +97784,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_subset of 29 genes: PMP22",
-  "gene": {
-   "symbol": "subset of 29 genes: PMP22",
-   "name": "subset of 29 genes: PMP22",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "Autism",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 23",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 23,
-   "clinvar_summary_chinese": "ClinVar 收录 23 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_PET100",
   "gene": {
    "symbol": "PET100",
@@ -101558,40 +99586,6 @@
   "myth_buster": null
  },
  {
-  "association_id": "BULK_subset of 1163 genes: APP:DIP2A:DSCAM:DYRK1A:ITSN1:RUNX1:SON",
-  "gene": {
-   "symbol": "subset of 1163 genes: APP:DIP2A:DSCAM:DYRK1A:ITSN1:RUNX1:SON",
-   "name": "subset of 1163 genes: APP:DIP2A:DSCAM:DYRK1A:ITSN1:RUNX1:SON",
-   "chinese_name": "",
-   "chromosome": "",
-   "metaphor": {},
-   "plain_summary": "",
-   "academic_summary": ""
-  },
-  "disease": {
-   "id": "",
-   "name": "",
-   "chinese_name": "",
-   "categories": [],
-   "severity_badge": "🔵 强证据基因"
-  },
-  "evidence": {
-   "overall_score": 0.75,
-   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
-   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
-   "star_rating": 4,
-   "clinvar_pathogenic_count": 22,
-   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
-   "opentargets_score": 0.0
-  },
-  "lifestyle_prevention": {
-   "screening_advice": "",
-   "lifestyle_tips": []
-  },
-  "doctor_checklist": {},
-  "myth_buster": null
- },
- {
   "association_id": "BULK_LOC126863188",
   "gene": {
    "symbol": "LOC126863188",
@@ -101990,6 +99984,2012 @@
    "star_rating": 4,
    "clinvar_pathogenic_count": 22,
    "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_NDUFB11",
+  "gene": {
+   "symbol": "NDUFB11",
+   "name": "NDUFB11",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Linear skin defects with multiple congenital anomalies 3",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_VWA3B",
+  "gene": {
+   "symbol": "VWA3B",
+   "name": "VWA3B",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Spinocerebellar ataxia, autosomal recessive 22",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_OTULIN",
+  "gene": {
+   "symbol": "OTULIN",
+   "name": "OTULIN",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Autoinflammation, panniculitis, and dermatosis syndrome, autosomal recessive",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_CACNA2D4",
+  "gene": {
+   "symbol": "CACNA2D4",
+   "name": "CACNA2D4",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Retinal cone dystrophy 4",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_DMRT1",
+  "gene": {
+   "symbol": "DMRT1",
+   "name": "DMRT1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "46,XY sex reversal 4",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_CCNH",
+  "gene": {
+   "symbol": "CCNH",
+   "name": "CCNH",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Capillary malformation-arteriovenous malformation 1",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_TTI1",
+  "gene": {
+   "symbol": "TTI1",
+   "name": "TTI1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Abnormal brain morphology",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_MSH5",
+  "gene": {
+   "symbol": "MSH5",
+   "name": "MSH5",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Premature ovarian failure 13",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_MRPS34",
+  "gene": {
+   "symbol": "MRPS34",
+   "name": "MRPS34",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Leigh syndrome",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_GRIA4",
+  "gene": {
+   "symbol": "GRIA4",
+   "name": "GRIA4",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Neurodevelopmental disorder with or without seizures and gait abnormalities",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_NCAPD2",
+  "gene": {
+   "symbol": "NCAPD2",
+   "name": "NCAPD2",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Microcephaly 21, primary, autosomal recessive",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_MAB21L1",
+  "gene": {
+   "symbol": "MAB21L1",
+   "name": "MAB21L1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Autism",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_UNC13A",
+  "gene": {
+   "symbol": "UNC13A",
+   "name": "UNC13A",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Autism",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_RECQL",
+  "gene": {
+   "symbol": "RECQL",
+   "name": "RECQL",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Hereditary cancer-predisposing syndrome",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_EEF1D",
+  "gene": {
+   "symbol": "EEF1D",
+   "name": "EEF1D",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Autosomal recessive non-syndromic intellectual disability",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_PISD",
+  "gene": {
+   "symbol": "PISD",
+   "name": "PISD",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "PISD-related mitochondrial disease",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_USP45",
+  "gene": {
+   "symbol": "USP45",
+   "name": "USP45",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Short stature",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_RSRC1",
+  "gene": {
+   "symbol": "RSRC1",
+   "name": "RSRC1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Intellectual developmental disorder, autosomal recessive 70",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_TTC29",
+  "gene": {
+   "symbol": "TTC29",
+   "name": "TTC29",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Spermatogenic failure 42",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_PCYT2",
+  "gene": {
+   "symbol": "PCYT2",
+   "name": "PCYT2",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Spastic paraplegia 82, autosomal recessive",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_NEK10",
+  "gene": {
+   "symbol": "NEK10",
+   "name": "NEK10",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Ciliary dyskinesia, primary, 44",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_DCT",
+  "gene": {
+   "symbol": "DCT",
+   "name": "DCT",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Albinism",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_KAT8",
+  "gene": {
+   "symbol": "KAT8",
+   "name": "KAT8",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Li-Ghorbani-Weisz-Hubshman syndrome",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_HCN2",
+  "gene": {
+   "symbol": "HCN2",
+   "name": "HCN2",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "HCN2 related developmental and epileptic encephalopathy",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_PAPPA2",
+  "gene": {
+   "symbol": "PAPPA2",
+   "name": "PAPPA2",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Short stature, Dauber-Argente type",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_WNK3",
+  "gene": {
+   "symbol": "WNK3",
+   "name": "WNK3",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Neurodevelopmental disorder",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_KIF26A",
+  "gene": {
+   "symbol": "KIF26A",
+   "name": "KIF26A",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Cortical dysplasia, complex, with other brain malformations 11",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_GOLGA2",
+  "gene": {
+   "symbol": "GOLGA2",
+   "name": "GOLGA2",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Developmental delay with hypotonia, myopathy, and brain abnormalities",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_DISP1",
+  "gene": {
+   "symbol": "DISP1",
+   "name": "DISP1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Holoprosencephaly 10",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_TMEM151A",
+  "gene": {
+   "symbol": "TMEM151A",
+   "name": "TMEM151A",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Episodic kinesigenic dyskinesia 3",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_TMEM63B",
+  "gene": {
+   "symbol": "TMEM63B",
+   "name": "TMEM63B",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "TMEM63B-associated disorder",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_RFC4",
+  "gene": {
+   "symbol": "RFC4",
+   "name": "RFC4",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Morimoto-Ryu-Malicdan neuromuscular syndrome",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_CFAP54",
+  "gene": {
+   "symbol": "CFAP54",
+   "name": "CFAP54",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Spermatogenic failure 98",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_LDB1",
+  "gene": {
+   "symbol": "LDB1",
+   "name": "LDB1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Autosomal dominant non-syndromic intellectual disability",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 22",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 22,
+   "clinvar_summary_chinese": "ClinVar 收录 22 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_TMEM126A",
+  "gene": {
+   "symbol": "TMEM126A",
+   "name": "TMEM126A",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Autosomal recessive optic atrophy, OPA7 type",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_TTBK2",
+  "gene": {
+   "symbol": "TTBK2",
+   "name": "TTBK2",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Spinocerebellar ataxia type 11",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_DBH",
+  "gene": {
+   "symbol": "DBH",
+   "name": "DBH",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Orthostatic hypotension 1",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_ALX3",
+  "gene": {
+   "symbol": "ALX3",
+   "name": "ALX3",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Frontorhiny",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_SLC35C1",
+  "gene": {
+   "symbol": "SLC35C1",
+   "name": "SLC35C1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Leukocyte adhesion deficiency type II",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_SLC33A1",
+  "gene": {
+   "symbol": "SLC33A1",
+   "name": "SLC33A1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Hereditary spastic paraplegia 42",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_BUB1",
+  "gene": {
+   "symbol": "BUB1",
+   "name": "BUB1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Carcinoma of colon",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_PEX14",
+  "gene": {
+   "symbol": "PEX14",
+   "name": "PEX14",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Peroxisome biogenesis disorder 13A",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_WNT7A",
+  "gene": {
+   "symbol": "WNT7A",
+   "name": "WNT7A",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Schinzel phocomelia syndrome",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_MYO5A",
+  "gene": {
+   "symbol": "MYO5A",
+   "name": "MYO5A",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Griscelli syndrome type 1",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_SERPIND1",
+  "gene": {
+   "symbol": "SERPIND1",
+   "name": "SERPIND1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Heparin cofactor II deficiency",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_SLCO1B1",
+  "gene": {
+   "symbol": "SLCO1B1",
+   "name": "SLCO1B1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Rotor syndrome",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_SLCO1B3",
+  "gene": {
+   "symbol": "SLCO1B3",
+   "name": "SLCO1B3",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Rotor syndrome",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_KIF5C",
+  "gene": {
+   "symbol": "KIF5C",
+   "name": "KIF5C",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Complex cortical dysplasia with other brain malformations 2",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_COL25A1",
+  "gene": {
+   "symbol": "COL25A1",
+   "name": "COL25A1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Fibrosis of extraocular muscles, congenital, 5",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_RPL13",
+  "gene": {
+   "symbol": "RPL13",
+   "name": "RPL13",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "16q24.3 microdeletion syndrome",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_NXN",
+  "gene": {
+   "symbol": "NXN",
+   "name": "NXN",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Robinow syndrome, autosomal recessive 2",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_ZBTB11",
+  "gene": {
+   "symbol": "ZBTB11",
+   "name": "ZBTB11",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Intellectual developmental disorder, autosomal recessive 69",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_ARNT2",
+  "gene": {
+   "symbol": "ARNT2",
+   "name": "ARNT2",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Webb-Dattani syndrome",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_GLRA2",
+  "gene": {
+   "symbol": "GLRA2",
+   "name": "GLRA2",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Intellectual developmental disorder, X-linked, syndromic, Pilorge type",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_PABPC1L",
+  "gene": {
+   "symbol": "PABPC1L",
+   "name": "PABPC1L",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Inherited oocyte maturation defect",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_ARF3",
+  "gene": {
+   "symbol": "ARF3",
+   "name": "ARF3",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Intellectual disability;Atrophy/Degeneration affecting the central nervous system;Microcephaly;Dystonic disorder;Scoliosis",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_ALG5",
+  "gene": {
+   "symbol": "ALG5",
+   "name": "ALG5",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Polycystic kidney disease 7",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_ADCY3",
+  "gene": {
+   "symbol": "ADCY3",
+   "name": "ADCY3",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Inherited obesity",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
+   "opentargets_score": 0.0
+  },
+  "lifestyle_prevention": {
+   "screening_advice": "",
+   "lifestyle_tips": []
+  },
+  "doctor_checklist": {},
+  "myth_buster": null
+ },
+ {
+  "association_id": "BULK_UGGT1",
+  "gene": {
+   "symbol": "UGGT1",
+   "name": "UGGT1",
+   "chinese_name": "",
+   "chromosome": "",
+   "metaphor": {},
+   "plain_summary": "",
+   "academic_summary": ""
+  },
+  "disease": {
+   "id": "",
+   "name": "Hypercholesterolemia, familial, 1",
+   "chinese_name": "",
+   "categories": [],
+   "severity_badge": "🔵 强证据基因"
+  },
+  "evidence": {
+   "overall_score": 0.75,
+   "plain_rating": "⭐️⭐️⭐️⭐️ ClinVar 强致病证据（≥20 个致病变异）",
+   "professional_rating": "ClinVar pathogenic/likely-pathogenic variants: 21",
+   "star_rating": 4,
+   "clinvar_pathogenic_count": 21,
+   "clinvar_summary_chinese": "ClinVar 收录 21 个明确/可能致病变异",
    "opentargets_score": 0.0
   },
   "lifestyle_prevention": {

@@ -7,6 +7,7 @@ pathogenic / likely-pathogenic variant counts and a primary disease name.
 from __future__ import annotations
 
 import gzip
+import re
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Optional, Set
@@ -25,6 +26,11 @@ RISK_SIGNIFICANCE = {
 }
 
 SKIP_SYMBOLS = {"-", "", "Multiple"}
+# ClinVar 的 GeneSymbol 欄位偶爾是 CNV 片段描述而非真實基因符號
+_JUNK_GENE = re.compile(
+    r"[\s:]|covers|subset|genes|deletion|duplication|region|entire|none of which",
+    re.IGNORECASE,
+)
 IGNORED_CONDITIONS = {
     "not provided",
     "not specified",
@@ -70,8 +76,11 @@ def _split_genes(raw: str) -> List[str]:
     out = []
     for g in (raw or "").replace(",", ";").split(";"):
         g = g.strip()
-        if g and g not in SKIP_SYMBOLS:
-            out.append(g)
+        if not g or g in SKIP_SYMBOLS:
+            continue
+        if _JUNK_GENE.search(g):
+            continue
+        out.append(g)
     return out
 
 
