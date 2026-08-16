@@ -6,7 +6,7 @@ import FamilySimulator from './components/FamilySimulator.jsx'
 import MythBusterSection from './components/MythBusterSection.jsx'
 import AskDoctor from './components/AskDoctor.jsx'
 import { useLanguage } from './i18n.jsx'
-import { fetchAssociations, fetchSearch } from './api.js'
+import { fetchAssociations, fetchBrowse, fetchSearch } from './api.js'
 
 export default function App() {
   const { lang, setLang, t } = useLanguage()
@@ -16,6 +16,10 @@ export default function App() {
   const [results, setResults] = useState(null)
   const [checklistGene, setChecklistGene] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [browseItems, setBrowseItems] = useState([])
+  const [browseOffset, setBrowseOffset] = useState(0)
+  const [browseTotal, setBrowseTotal] = useState(null)
+  const [browseLoading, setBrowseLoading] = useState(false)
 
   useEffect(() => {
     fetchAssociations()
@@ -37,6 +41,18 @@ export default function App() {
   }
 
   const shown = results ? results.results : associations
+
+  async function loadMore() {
+    setBrowseLoading(true)
+    try {
+      const data = await fetchBrowse(browseOffset, 20)
+      setBrowseItems((items) => [...items, ...data.results])
+      setBrowseOffset((offset) => offset + data.results.length)
+      setBrowseTotal(data.total)
+    } finally {
+      setBrowseLoading(false)
+    }
+  }
 
   return (
     <div className="app">
@@ -113,6 +129,24 @@ export default function App() {
           ))}
           {!loading && shown.length === 0 && <p className="hint">{t('empty')}</p>}
         </section>
+
+        {!results && (
+          <section className="panel browse-panel">
+            <h2 className="panel-title">{t('browse_title')}</h2>
+            <div className="cards-grid">
+              {browseItems.map((assoc) => (
+                <MetaphorCard key={assoc.association_id} assoc={assoc} mode={mode} />
+              ))}
+            </div>
+            {browseTotal !== null && browseOffset >= browseTotal ? (
+              <p className="hint">{t('browse_done')}</p>
+            ) : (
+              <button className="btn-primary" onClick={loadMore} disabled={browseLoading}>
+                {browseLoading ? t('browse_loading') : t('browse_more')}
+              </button>
+            )}
+          </section>
+        )}
 
         <ReportDecoder />
         <FamilySimulator />

@@ -55,6 +55,7 @@ def _render_association(assoc: GeneDiseaseAssociation, view: str = "simple") -> 
         "association_id": assoc.association_id,
         "gene": {
             "symbol": assoc.gene.symbol,
+            "name": assoc.gene.name,
             "chinese_name": assoc.gene.chinese_name,
             "chromosome": assoc.gene.chromosome,
             "metaphor_title": assoc.gene.metaphor_title,
@@ -70,9 +71,11 @@ def _render_association(assoc: GeneDiseaseAssociation, view: str = "simple") -> 
             "chinese_name": assoc.disease.chinese_name,
             "categories": assoc.disease.categories,
             "severity_badge": assoc.disease.severity_badge,
+            "severity_badge_en": assoc.disease.severity_badge_en,
         },
         "evidence": {
             "plain_rating": assoc.evidence.plain_rating,
+            "plain_rating_en": assoc.evidence.plain_rating_en,
             "star_rating": assoc.evidence.star_rating,
             "clinvar_summary_chinese": assoc.evidence.clinvar_summary_chinese,
         },
@@ -117,6 +120,21 @@ def list_curated() -> List[Dict[str, Any]]:
     return [_render_association(a, "simple") for a in curated]
 
 
+@router.get("/browse")
+def browse_associations(
+    offset: int = Query(0, ge=0), limit: int = Query(20, ge=1, le=100)
+) -> Dict[str, Any]:
+    """Paginated bulk browsing so the frontend never loads the full dataset."""
+    bulk = [a for a in kb.associations if a.association_id.startswith("BULK_")]
+    page = bulk[offset : offset + limit]
+    return {
+        "offset": offset,
+        "limit": limit,
+        "total": len(bulk),
+        "results": [_render_association(a, "simple") for a in page],
+    }
+
+
 @router.get("/genes/{symbol}")
 def get_gene(symbol: str, view: str = Query("simple")) -> Dict[str, Any]:
     assoc = kb.get_by_symbol(symbol)
@@ -149,8 +167,8 @@ def get_checklist(gene_symbol: str) -> Dict[str, Any]:
 
 
 @router.get("/checklist/{gene_symbol}/text")
-def get_checklist_text(gene_symbol: str) -> Dict[str, str]:
-    text = checklist_service.render_checklist(gene_symbol)
+def get_checklist_text(gene_symbol: str, lang: str = Query("zh")) -> Dict[str, str]:
+    text = checklist_service.render_checklist(gene_symbol, lang)
     return {"text": text}
 
 
@@ -171,7 +189,7 @@ async def explain_report(query: GeneticReportQuery) -> ReportExplanation:
 @router.post("/chat")
 async def chat(req: ChatRequest) -> StreamingResponse:
     return StreamingResponse(
-        agent.chat_qa_stream(req.message),
+        agent.chat_qa_stream(req.message, lang=getattr(req, "lang", "zh")),
         media_type="text/event-stream",
         headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
     )

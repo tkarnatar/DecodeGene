@@ -19,6 +19,13 @@ export default function MetaphorCard({ assoc, mode, onOpenChecklist }) {
     ? lifestyle_prevention?.screening_advice_en || lifestyle_prevention?.screening_advice
     : lifestyle_prevention?.screening_advice
 
+  const severityBadge = lang === 'en'
+    ? disease.severity_badge_en || disease.severity_badge
+    : disease.severity_badge
+  const plainRating = lang === 'en'
+    ? evidence?.plain_rating_en || evidence?.plain_rating
+    : evidence?.plain_rating
+
   const hasPlainContent = metaphorTitle || metaphorStory || plainSummary
   const hasChecklist = screeningAdvice
 
@@ -51,7 +58,7 @@ export default function MetaphorCard({ assoc, mode, onOpenChecklist }) {
           </h3>
           <div className="disease">{diseaseName}</div>
         </div>
-        <span className="badge">{disease.severity_badge || t('badge_pending')}</span>
+        <span className="badge">{severityBadge || t('badge_pending')}</span>
       </div>
 
       {body}
@@ -63,11 +70,11 @@ export default function MetaphorCard({ assoc, mode, onOpenChecklist }) {
             {evidence?.clinvar_pathogenic_count ?? '—'}
           </span>
         ) : (
-          <span>{evidence?.plain_rating || t('no_rating')}</span>
+          <span>{plainRating || t('no_rating')}</span>
         )}
       </div>
 
-      {!isPro && hasChecklist && (
+      {!isPro && hasChecklist && onOpenChecklist && (
         <>
           <div className="prevention">
             <strong>{t('screening_advice')}</strong>

@@ -13,6 +13,10 @@ export const translations = {
     loading: '正在加载基因知识库…',
     search_result: '搜索「{query}」共找到 {count} 条相关结果',
     empty: '暂无数据。请先运行后端并生成数据。',
+    browse_title: '📚 浏览完整基因知识库',
+    browse_more: '加载更多基因',
+    browse_loading: '加载中…',
+    browse_done: '已显示全部批量基因',
     footer_disclaimer:
       '⚠️ 免责声明：本工具由开源社区与 AI 提供，仅供科学普及与健康常识参考，不能替代执业医师、临床遗传咨询师的诊断与治疗决策。',
 
@@ -89,6 +93,10 @@ export const translations = {
     loading: 'Loading gene knowledge base…',
     search_result: 'Found {count} result(s) for "{query}"',
     empty: 'No data yet. Please start the backend and generate data.',
+    browse_title: '📚 Browse the full gene knowledge base',
+    browse_more: 'Load more genes',
+    browse_loading: 'Loading…',
+    browse_done: 'All bulk genes are displayed',
     footer_disclaimer:
       '⚠️ Disclaimer: This tool is provided by the open-source community and AI for educational purposes only. It is not a substitute for diagnosis or treatment by a licensed physician or genetic counselor.',
 

@@ -10,12 +10,16 @@ export async function fetchAssociations() {
   return getJSON('/curated')
 }
 
+export async function fetchBrowse(offset = 0, limit = 20) {
+  return getJSON(`/browse?offset=${offset}&limit=${limit}`)
+}
+
 export async function fetchSearch(query) {
   return getJSON(`/search?q=${encodeURIComponent(query)}`)
 }
 
-export async function fetchChecklistText(symbol) {
-  const data = await getJSON(`/checklist/${encodeURIComponent(symbol)}/text`)
+export async function fetchChecklistText(symbol, lang = 'zh') {
+  const data = await getJSON(`/checklist/${encodeURIComponent(symbol)}/text?lang=${lang}`)
   return data.text
 }
 
@@ -33,21 +37,21 @@ export async function fetchInheritance(payload) {
   return res.json()
 }
 
-export async function fetchExplainReport(rawText) {
+export async function fetchExplainReport(rawText, lang = 'zh') {
   const res = await fetch(`${BASE}/report/explain`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ raw_text: rawText }),
+    body: JSON.stringify({ raw_text: rawText, lang }),
   })
   if (!res.ok) throw new Error(`请求失败: ${res.status}`)
   return res.json()
 }
 
-export async function askChatStream(message, onChunk, onDone) {
+export async function askChatStream(message, onChunk, onDone, lang = 'zh') {
   const res = await fetch(`${BASE}/chat`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ message }),
+    body: JSON.stringify({ message, lang }),
   })
   if (!res.ok || !res.body) throw new Error(`请求失败: ${res.status}`)
 
