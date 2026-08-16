@@ -110,6 +110,13 @@ def list_associations() -> List[Dict[str, Any]]:
     return [_render_association(a, "simple") for a in kb.associations]
 
 
+@router.get("/curated")
+def list_curated() -> List[Dict[str, Any]]:
+    """只回傳精選（人工審核）基因，供首頁預設顯示，避免一次載入全部資料。"""
+    curated = [a for a in kb.associations if a.association_id.startswith("GDA_")]
+    return [_render_association(a, "simple") for a in curated]
+
+
 @router.get("/genes/{symbol}")
 def get_gene(symbol: str, view: str = Query("simple")) -> Dict[str, Any]:
     assoc = kb.get_by_symbol(symbol)
@@ -152,7 +159,7 @@ def list_myths() -> List[Dict[str, Any]]:
     return [
         {"gene": a.gene.symbol, "chinese_name": a.gene.chinese_name, **a.myth_buster.model_dump()}
         for a in kb.associations
-        if a.myth_buster is not None
+        if a.myth_buster is not None and a.association_id.startswith("GDA_")
     ]
 
 

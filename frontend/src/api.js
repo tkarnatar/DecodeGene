@@ -7,7 +7,7 @@ async function getJSON(path) {
 }
 
 export async function fetchAssociations() {
-  return getJSON('/associations')
+  return getJSON('/curated')
 }
 
 export async function fetchSearch(query) {
